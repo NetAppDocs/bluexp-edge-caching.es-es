@@ -25,16 +25,16 @@ Descargue las plantillas virtuales de caché global de archivos que tiene previs
 * Plantilla virtual de Windows Server 2016:
 +
 https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["Windows Server 2016 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["Windows Server 2016 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["Windows Server 2016 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
 
 * Plantilla virtual de Windows Server 2019:
 +
 https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 2019 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["Windows Server 2019 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["Windows Server 2019 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
 
 * Software Global File Cache Edge:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["Paquete de instalación de software GFC de NetApp (.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["Paquete de instalación de software GFC de NetApp (.EXE)"^]
 
 * Paneles de control de caché de archivos global para Cloud Insights:
 +
@@ -42,7 +42,7 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["Paneles Cloud Insig
 
 * Documentación de Global File Cache:
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de NetApp Global File Cache (.PDF)"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de NetApp Global File Cache (.PDF)"^]
 
 
 
@@ -58,7 +58,7 @@ NOTE: Al implementar la caché de archivos global en Windows Server 2016, debe u
 En función de sus requisitos, es posible que deba implementar una o varias instancias de Global File Cache Edge en función de las sesiones de usuario simultáneas en una sucursal. La instancia de Edge presenta el recurso compartido de archivos virtual a los usuarios finales de la sucursal, que se ha ampliado de forma transparente desde la instancia de Global File Cache Core asociada. El borde de caché global de archivos debe contener un `D:\` Volumen NTFS, que contiene los archivos almacenados en caché dentro de la sucursal.
 
 
-NOTE: Para Global File Cache Edge, es importante comprender link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["directrices de tamaño"]. Esto le ayudará a realizar el diseño correcto para su implementación de la caché global de archivos. También tendría que determinar cuál es el más adecuado para su entorno en términos de escala, disponibilidad de recursos y redundancia.
+NOTE: Para Global File Cache Edge, es importante comprender link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["directrices de tamaño"]. Esto le ayudará a realizar el diseño correcto para su implementación de la caché global de archivos. También debe determinar qué es mejor para su entorno en términos de escalado, disponibilidad de recursos y redundancia.
 
 
 
@@ -149,7 +149,7 @@ El caché global de archivos se ejecuta en Windows Server 2016 y 2019, por lo qu
 
 La latencia de disco en el disco de caché de archivos inteligente (D:\) de Global File Cache debería ofrecer una latencia de disco de I/o media de < 0,5 ms y un rendimiento de 1 MB por usuario simultáneo.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -157,7 +157,7 @@ Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/G
 
 * Firewall: Se deben permitir los puertos TCP entre las instancias de Global File Cache Edge y Management Server y Core.
 +
-Puertos TCP de caché de archivos global: 443 (HTTPS - LMS), 6618 – 6630.
+Puertos TCP de caché de archivos global: 443 (HTTPS - LMS), 6618 - 6630.
 
 * Los dispositivos de optimización de red (como Riverbed Steelhead) deben configurarse para pasar por los puertos específicos de la caché global de archivos (TCP 6618-6630).
 
@@ -166,11 +166,11 @@ Puertos TCP de caché de archivos global: 443 (HTTPS - LMS), 6618 – 6630.
 
 === Estación de trabajo cliente y prácticas recomendadas de la aplicación
 
-La caché global de archivos se integra de forma transparente en los entornos del cliente, permitiendo a los usuarios acceder a datos centralizados mediante sus estaciones de trabajo cliente, ejecutando aplicaciones empresariales. Mediante la caché global de archivos, se accede a los datos a través de una asignación directa de unidades o a través de un espacio de nombres DFS. Si quiere más información sobre la estructura de caché global de archivos, el almacenamiento en caché inteligente de archivos y aspectos clave del software, consulte la link:concept-before-you-begin-to-deploy-gfc.html["Antes de comenzar a implementar la caché de archivos global"^] sección.
+Global File Cache se integra de forma transparente en los entornos de los clientes, lo que permite a los usuarios acceder a los datos centralizados mediante sus estaciones de trabajo cliente, ejecutando las aplicaciones empresariales. Mediante la caché global de archivos, se accede a los datos a través de una asignación directa de unidades o a través de un espacio de nombres DFS. Si quiere más información sobre la estructura de caché global de archivos, el almacenamiento en caché inteligente de archivos y aspectos clave del software, consulte la link:concept-before-you-begin-to-deploy-gfc.html["Antes de comenzar a implementar la caché de archivos global"^] sección.
 
 Para garantizar una experiencia y un rendimiento óptimos, es importante cumplir con los requisitos y las prácticas recomendadas del cliente de Microsoft Windows, tal y como se describe en la Guía del usuario de la caché global de archivos. Esto se aplica a todas las versiones de Microsoft Windows.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -178,7 +178,7 @@ Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/G
 
 Aunque Global File Cache hace un esfuerzo razonable para validar que los paquetes de aplicaciones antivirus más comunes son compatibles con Global File Cache, NetApp no puede garantizar y no es responsable de ninguna incompatibilidad o problemas de rendimiento causados por estos programas, ni de sus actualizaciones, paquetes de servicio ni modificaciones asociados.
 
-La caché global de archivos no recomienda la instalación ni la aplicación de soluciones de supervisión o antivirus en ninguna instancia habilitada de Global File Cache (Core o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+La caché global de archivos no recomienda la instalación ni la aplicación de soluciones de supervisión o antivirus en ninguna instancia habilitada de Global File Cache (Core o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -204,12 +204,12 @@ La caché global de archivos no recomienda la instalación ni la aplicación de 
 
 === Mejores prácticas de antivirus
 
-Esta sección le ayuda a comprender los requisitos cuando ejecuta software antivirus en una instancia de Windows Server que ejecuta la caché de archivos global. Global File Cache ha probado los productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, multitud Strike, Cisco AMP, Tannium y Windows Defender se pueden utilizar junto con la caché de archivos global. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^]
+Esta sección le ayuda a comprender los requisitos cuando ejecuta software antivirus en una instancia de Windows Server que ejecuta la caché de archivos global. Global File Cache ha probado los productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, multitud Strike, Cisco AMP, Tannium y Windows Defender se pueden utilizar junto con la caché de archivos global. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^]
 
 
-NOTE: Añadir antivirus a un dispositivo Edge puede tener un impacto del 10 al 20% en el rendimiento del usuario.
+NOTE: Añadir antivirus a un dispositivo Edge puede tener un efecto del 10-20% sobre el rendimiento del usuario.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -259,14 +259,14 @@ Las instancias de caché de archivos global se han diseñado específicamente pa
 * No se admite el software de productividad de la línea de negocio, que suele requerir muchos recursos, por ejemplo, servidores de bases de datos, servidores de correo, etc.
 * El cliente es responsable de cualquier software no Global File Cache que pueda instalarse en el servidor que ejecute Global File Cache:
 +
-** Si un paquete de software de terceros provoca conflictos de software o recursos con la caché global de archivos o el rendimiento se ve comprometido, la organización de asistencia de Global File Cache podría requerir al cliente que desactive o elimine el software del servidor que ejecuta la caché global de archivos.
-** Es responsabilidad del cliente por toda la instalación, integración, asistencia técnica y actualización de cualquier software agregado al servidor que ejecute la aplicación Global File Cache.
+** Si un paquete de software de terceros provoca conflictos entre software y recursos con la caché global de archivos o el rendimiento se ve comprometido, la organización de soporte de Global File Cache podría requerir al cliente que desactive o quite el software del servidor que ejecuta la caché global de archivos.
+** Es responsabilidad del cliente por toda la instalación, integración, asistencia y actualización de cualquier software agregado al servidor que ejecute la aplicación Global File Cache.
 
 
 * Las utilidades/agentes de administración de sistemas, como las herramientas antivirus y los agentes de licencia, pueden coexistir. Sin embargo, excepto en el caso de los servicios y aplicaciones compatibles que se enumeran anteriormente, estas aplicaciones no son compatibles con la caché global de archivos y deben seguir las mismas directrices que se han indicado anteriormente:
 +
-** Es responsabilidad del cliente por toda la instalación, integración, asistencia técnica y actualización de cualquier software agregado.
-** Si un cliente instala un paquete de software de terceros que cause o sospecha que esté causando conflictos de software o recursos con la caché global de archivos o el rendimiento se ve comprometido, puede que la organización de soporte de Global File Cache tenga que desactivar o eliminar el software.
+** Es responsabilidad del cliente por toda la instalación, integración, asistencia y actualización de cualquier software añadido.
+** Si un cliente instala un paquete de software de terceros que cause o sospecha que esté causando conflictos de software o recursos con la caché global de archivos o el rendimiento se vea comprometido, puede que la organización de soporte de Global File Cache tenga que deshabilitar o eliminar el software.
 
 
 

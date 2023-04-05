@@ -18,19 +18,19 @@ Utilice los siguientes enlaces para obtener más información acerca de Global F
 
 * Preguntas más frecuentes sobre la caché global de archivos
 +
-** Vea una lista de preguntas y respuestas más frecuentes link:https://cloud.netapp.com/global-file-cache-faq["aquí"^]
+** Vea una lista de preguntas y respuestas más frecuentes https://bluexp.netapp.com/global-file-cache-faq["aquí"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché de archivos global"^]
 * Documentación de productos de NetApp
 +
 ** Consulte documentación adicional para los productos cloud de NetApp https://docs.netapp.com/us-en/cloud/["aquí"^]
-** Consulte la documentación adicional para todos los productos de NetApp https://docs.netapp.com["aquí"^]
+** Consulte la documentación adicional para todos los productos de NetApp https://www.netapp.com/support-and-training/documentation/["aquí"^]
 
 
 * El soporte al cliente para usuarios de la caché global de archivos con Cloud Volumes ONTAP está disponible a través de los siguientes canales:
 +
-** Proceso guiado de resolución de problemas, gestión de casos, base de conocimientos, descargas, herramientas y mucho más, vaya link:https://cloud.netapp.com/gfc-support["aquí"^]
+** Proceso guiado de resolución de problemas, gestión de casos, base de conocimientos, descargas, herramientas y mucho más, vaya https://bluexp.netapp.com/gfc-support["aquí"^]
 ** Inicie sesión en el soporte de NetApp en https://mysupport.netapp.com[] Con sus credenciales de NSS
 ** Para obtener asistencia inmediata para un problema P1, llame al +1 856.481.3990 (opción 2)
 

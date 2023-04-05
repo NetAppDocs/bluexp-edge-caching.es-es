@@ -18,9 +18,31 @@ Descubra las novedades de Global File Cache.
 
 
 
-== 24 de octubre de 2022 (versión 2.1)
+== 5 de abril de 2023 (versión 2.2)
 
 Esta versión proporciona las nuevas funciones que se enumeran a continuación. También soluciona los problemas descritos en https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["Problemas solucionados"]. Los paquetes de software actualizados están disponibles en https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["esta página"].
+
+
+
+=== Compatibilidad con caché de archivos global en sistemas Cloud Volumes ONTAP implementados en Google Cloud
+
+Hay disponible una nueva licencia "Edge Cache" cuando se implementa un sistema Cloud Volumes ONTAP en Google Cloud. Tiene derecho a poner en marcha un sistema perimetral de caché de archivos global por cada 3 TIB de capacidad adquirida en el sistema Cloud Volumes ONTAP.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Obtenga más información acerca del paquete de licencia de Edge Cache."]
+
+
+
+=== El asistente de configuración y la interfaz de usuario de configuración GFC se han mejorado para realizar el registro de licencias de NetApp
+
+
+
+=== Optimus PSM mejorado para configurar la funcionalidad Edge Sync
+
+
+
+== 24 de octubre de 2022 (versión 2.1)
+
+Esta versión proporciona las nuevas funciones que se enumeran a continuación. También soluciona los problemas descritos en https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["Problemas solucionados"].
 
 
 
@@ -84,7 +106,7 @@ Durante la configuración de la licencia, el servidor de gestión de licencias (
 
 == 23 de junio de 2022 (versión 1.3.1)
 
-El software Global File Cache Edge para la versión 1.3.1 está disponible en https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["esta página"]. En esta versión se solucionan los problemas descritos en https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["Problemas solucionados"].
+En esta versión se solucionan los problemas descritos en https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["Problemas solucionados"].
 
 
 

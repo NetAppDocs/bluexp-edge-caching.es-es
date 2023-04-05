@@ -18,6 +18,17 @@ Vea qué problemas se han solucionado en la caché de archivos global.
 
 
 
+== 27 de marzo de 2023 (versión 2.2)
+
+* Se ha solucionado el problema de convertir el formato de tiempo de ejecución de un trabajo de rellenado previo para la opción de "última modificación de tiempo".
+* Se ha solucionado un problema relacionado con el análisis de la transferencia de archivos y su transferencia al servicio Cloud Insights.
+* La sincronización de bordes de los archivos en todos los suscriptores se vuelve a conectar automáticamente cuando hay una desconexión con el editor.
+* Ejecución fija de trabajos de rellenado previo en un dispositivo Edge si está conectado a varios núcleos.
+* Optimus UI ahora muestra la lista Connected Edge en un editor que participa en la funcionalidad de Edge Sync.
+
+
+
+
 == 24 de octubre de 2022 (versión 2.1)
 
 * Durante la configuración de licencias, se realiza una validación adicional del número de suscripción GFC.

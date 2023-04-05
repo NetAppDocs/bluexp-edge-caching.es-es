@@ -32,7 +32,7 @@ Empiece rápidamente siguiendo estos pasos o desplácese hacia abajo hasta las s
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Ponga en marcha Cloud Volumes ONTAP
 [role="quick-margin-para"]
-Ponga en marcha Cloud Volumes ONTAP en Azure o AWS y configure los recursos compartidos de archivos de SMB. Para obtener más información, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^] o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^].
+Ponga en marcha Cloud Volumes ONTAP y configure los recursos compartidos de archivos de SMB. Para obtener más información, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^], o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lanzamiento de Cloud Volumes ONTAP en Google Cloud"^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Implemente el servidor de gestión global de caché de archivos
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ Consulte link:task-deploy-gfc-edge-instances.html["Implementación de instancias
 
 === Ponga en marcha Cloud Volumes ONTAP como su plataforma de almacenamiento
 
-En la versión actual, la caché de archivos global es compatible con Cloud Volumes ONTAP implementado en Azure o AWS. Para obtener detalles sobre los requisitos previos, los requisitos y las instrucciones de puesta en marcha, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^] o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^].
+Global File Cache es compatible con Cloud Volumes ONTAP implementado en Azure, AWS y Google Cloud. Para obtener detalles sobre los requisitos previos, los requisitos y las instrucciones de puesta en marcha, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^], o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lanzamiento de Cloud Volumes ONTAP en Google Cloud"^]
 
 Tenga en cuenta los siguientes requisitos adicionales de caché global de archivos:
 
@@ -91,7 +91,7 @@ image:screenshot_gfc_install3.png["Captura de pantalla que muestra la informaci�
 image:screenshot_gfc_install4.png["Captura de pantalla que muestra los requisitos previos antes de implementar las instancias de servidor de administración de caché de archivos global y núcleo."]
 
 . Después de verificar que se han cumplido los requisitos o que tiene la información necesaria para cumplir estos requisitos, haga clic en *continuar*.
-. Introduzca las credenciales de administrador que utilizará para acceder a la VM del servidor de gestión de caché de archivos global y haga clic en *Activar GFC Service*. Para Azure, debe introducir las credenciales como nombre de usuario y contraseña; para AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
+. Introduzca las credenciales de administrador que utilizará para acceder a la VM del servidor de gestión de caché de archivos global y haga clic en *Activar GFC Service*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
 +
 image:screenshot_gfc_install5.png["Captura de pantalla que muestra la información de configuración necesaria para configurar el servidor de gestión de caché de archivos global."]
 
@@ -105,7 +105,7 @@ image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la inform
 
 
 
-. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure, debe introducir las credenciales como nombre de usuario y contraseña; para AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
+. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
 +
 image:screenshot_gfc_install7.png["Captura de pantalla que muestra la información de configuración necesaria para configurar la instancia de Global File Cache Core."]
 
@@ -156,7 +156,7 @@ Verá un mensaje que indica que la suscripción a la licencia de GFC se ha regis
 . Opcionalmente, puede hacer clic en la pestaña *Información de licencia* para ver toda la información de licencia GFC.
 
 
-.¿Cuál es el futuro?
+.El futuro
 Si ha determinado que necesita implementar varios núcleos de caché global de archivos para admitir su configuración, haga clic en *Agregar instancia principal* en el Panel de control y siga el asistente de implementación.
 
 Una vez finalizada la implementación básica, debe hacerlo link:download-gfc-resources.html["Implemente las instancias de Global File Cache Edge"^] en cada una de sus oficinas remotas.
@@ -182,7 +182,7 @@ image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la inform
 
 
 
-. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure, debe introducir las credenciales como nombre de usuario y contraseña; para AWS, seleccione la pareja de claves adecuada. Puede cambiar el nombre de la máquina virtual si desea.
+. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Puede cambiar el nombre de la máquina virtual si desea.
 +
 image:screenshot_gfc_install7.png["Captura de pantalla que muestra la información de configuración necesaria para configurar la instancia de Global File Cache Core."]
 

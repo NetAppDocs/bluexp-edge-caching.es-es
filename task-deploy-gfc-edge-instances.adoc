@@ -67,7 +67,7 @@ Asegúrese de que las preferencias de los equipos virtuales, incluidas las reser
 ** Contraseña: *Tal0nFAST!*
 
 
-. Configure el equipo virtual de Windows Server, únase al dominio de Active Directory de la organización y continúe con la sección de configuración de borde de caché de archivos global.
+. Configure el equipo virtual de Windows Server, únase al dominio de Active Directory de la organización y continúe con la sección de configuración de Global File Cache Edge.
 
 
 
@@ -131,4 +131,4 @@ Se iniciará el proceso de instalación.
 
 
 .El futuro
-Para obtener más información acerca de la configuración avanzada de Global File Cache Edge, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información acerca de la configuración avanzada de Global File Cache Edge, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].

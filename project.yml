@@ -71,15 +71,15 @@ homepage:
   - title: Blogs y comunidad
     links:
     - title: Comunidad de NetApp
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
     - title: Blog de BlueXP
-      url: https://cloud.netapp.com/blog
+      url: https://bluexp.netapp.com/blog
     - title: Seminarios web sobre el cloud
-      url: https://cloud.netapp.com/events
+      url: https://bluexp.netapp.com/events
   - title: Otros recursos
     links:
-    - title: Casos de uso de BlueXP
-      url: https://cloud.netapp.com/global-file-cache
+    - title: Casos de uso de BlueXP Edge Caching
+      url: https://bluexp.netapp.com/global-file-cache
 product-family:
   name: BlueXP
   repo: cloud-manager-family
