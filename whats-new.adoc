@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache' 
-summary: Descubra las novedades de Global File Cache. 
+summary: Descubre las novedades en el almacenamiento en caché perimetral de BlueXP. 
 ---
-= Novedades de la caché global de archivos
+= Novedades del almacenamiento en caché perimetral de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Descubra las novedades de Global File Cache.
 
 
 [role="lead"]
-Descubra las novedades de Global File Cache.
+Descubre las novedades en el almacenamiento en caché perimetral de BlueXP.
 
 
 

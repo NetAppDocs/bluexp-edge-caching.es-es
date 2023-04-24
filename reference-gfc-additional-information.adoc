@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-gfc-additional-information.html 
 keywords: global file cache 
-summary: Use los siguientes enlaces para obtener más información acerca de Global File Cache y otros productos de NetApp. 
+summary: Utiliza los siguientes enlaces para obtener más información sobre el almacenamiento en caché en el edge de BlueXP y otros productos de NetApp. 
 ---
 = Información adicional
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Use los siguientes enlaces para obtener más información acerca de Glo
 
 
 [role="lead"]
-Utilice los siguientes enlaces para obtener más información acerca de Global File Cache y otros productos de NetApp:
+Utiliza los siguientes enlaces para obtener más información sobre el almacenamiento en caché en el edge de BlueXP y otros productos de NetApp:
 
-* Preguntas más frecuentes sobre la caché global de archivos
+* Preguntas frecuentes sobre el almacenamiento en caché en el edge de
 +
 ** Vea una lista de preguntas y respuestas más frecuentes https://bluexp.netapp.com/global-file-cache-faq["aquí"^]
 
@@ -28,12 +28,12 @@ Utilice los siguientes enlaces para obtener más información acerca de Global F
 ** Consulte la documentación adicional para todos los productos de NetApp https://www.netapp.com/support-and-training/documentation/["aquí"^]
 
 
-* El soporte al cliente para usuarios de la caché global de archivos con Cloud Volumes ONTAP está disponible a través de los siguientes canales:
+* El soporte al cliente para los usuarios de caché perimetral de BlueXP con Cloud Volumes ONTAP está disponible a través de los siguientes canales:
 +
 ** Proceso guiado de resolución de problemas, gestión de casos, base de conocimientos, descargas, herramientas y mucho más, vaya https://bluexp.netapp.com/gfc-support["aquí"^]
 ** Inicie sesión en el soporte de NetApp en https://mysupport.netapp.com[] Con sus credenciales de NSS
 ** Para obtener asistencia inmediata para un problema P1, llame al +1 856.481.3990 (opción 2)
 
 
-* El soporte al cliente para usuarios de caché global de archivos que utilizan Cloud Volumes Services y Azure NetApp Files está disponible a través de un soporte estándar de su proveedor. Póngase en contacto con el Servicio de atención al cliente de Google o con el Servicio de atención al cliente de Microsoft,
+* El soporte al cliente para los usuarios de almacenamiento en caché en el edge de BlueXP que utilizan Cloud Volumes Services y Azure NetApp Files está disponible a través del soporte estándar de tu proveedor. Póngase en contacto con el Servicio de atención al cliente de Google o con el Servicio de atención al cliente de Microsoft,
 

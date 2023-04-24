@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-gfc-enduser-training.html 
 keywords: global file cache, training 
-summary: Usted querrá formar a sus usuarios en las prácticas recomendadas para acceder a los archivos compartidos a través de la caché global de archivos. 
+summary: Querrás formar a tus usuarios sobre las prácticas recomendadas para acceder a los archivos compartidos a través del almacenamiento en caché perimetral de BlueXP. 
 ---
 = Formación para el usuario final
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: Usted querrá formar a sus usuarios en las prácticas recomendadas para
 
 
 [role="lead"]
-Usted querrá formar a sus usuarios en las prácticas recomendadas para acceder a los archivos compartidos a través de la caché global de archivos.
+Querrás formar a tus usuarios sobre las prácticas recomendadas para acceder a los archivos compartidos a través del almacenamiento en caché perimetral de BlueXP.
 
-Esta es la fase final de la implementación de la caché global de archivos, la fase de implementación del usuario final.
+Esta es la fase final de la puesta en marcha de almacenamiento en caché perimetral de BlueXP, la fase de implementación del usuario final.
 
-Para preparar y agilizar el proceso de integración del usuario final, utilice la siguiente plantilla de correo electrónico que le ayudará a informar a los usuarios finales sobre lo que significa trabajar en un entorno de "datos centrales". Esto ayudará a sus usuarios a aprovechar todas las ventajas de la solución Global File Cache. También hemos publicado un vídeo que se puede compartir con los usuarios "de formación" cuando sea necesario.
+Para preparar y agilizar el proceso de integración del usuario final, utilice la siguiente plantilla de correo electrónico que le ayudará a informar a los usuarios finales sobre lo que significa trabajar en un entorno de "datos centrales". Esto ayudará a tus usuarios a aprovechar todas las ventajas de la solución de almacenamiento en caché perimetral de BlueXP. También hemos publicado un vídeo que se puede compartir con los usuarios "de formación" cuando sea necesario.
 
 Personalice y reenvíe los siguientes recursos a los usuarios finales para prepararlos para la implementación:
 

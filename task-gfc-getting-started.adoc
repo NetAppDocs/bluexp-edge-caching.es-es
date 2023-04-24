@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: Utilice BlueXP para implementar el servidor de administración de caché de archivos global y el software de núcleo de caché de archivos global en el entorno de trabajo. 
+summary: Utilizas BlueXP para poner en marcha el servidor de administración de almacenamiento en caché perimetral de BlueXP y el software Core en el entorno de trabajo. 
 ---
 = Primeros pasos
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Utilice BlueXP para implementar el servidor de administración de cach�
 
 
 [role="lead"]
-Utilice BlueXP para implementar el servidor de administración de caché de archivos global y el software de núcleo de caché de archivos global en el entorno de trabajo.
+Utilizas BlueXP para poner en marcha el servidor de administración de almacenamiento en caché perimetral de BlueXP y el software Core en el entorno de trabajo.
 
 
 
-== Active la caché global de archivos con BlueXP
+== Habilita el almacenamiento en caché de edge de BlueXP con BlueXP
 
-En esta configuración, implementará el servidor de administración global de caché de archivos y el núcleo de caché global de archivos en el mismo entorno de trabajo en el que creó el sistema Cloud Volumes ONTAP con BlueXP.
+En esta configuración implementarás el servidor de administración de almacenamiento en caché perimetral de BlueXP y el núcleo de almacenamiento en caché perimetral de BlueXP en el mismo entorno de trabajo en el que creaste tu sistema Cloud Volumes ONTAP con BlueXP.
 
 Ver link:https://www.youtube.com/watch?v=TGIQVssr43A["este vídeo"^] para ver los pasos de principio a fin.
 
@@ -34,49 +34,49 @@ Empiece rápidamente siguiendo estos pasos o desplácese hacia abajo hasta las s
 [role="quick-margin-para"]
 Ponga en marcha Cloud Volumes ONTAP y configure los recursos compartidos de archivos de SMB. Para obtener más información, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^], o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lanzamiento de Cloud Volumes ONTAP en Google Cloud"^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Implemente el servidor de gestión global de caché de archivos
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Pon en marcha el servidor de gestión del almacenamiento en caché perimetral de BlueXP
 [role="quick-margin-para"]
-Implemente una instancia del servidor de administración de caché de archivos global en el mismo entorno de trabajo que la instancia de Cloud Volumes ONTAP.
+Pon en marcha una instancia del servidor de gestión de almacenamiento en caché perimetral de BlueXP en el mismo entorno de trabajo que la instancia de Cloud Volumes ONTAP.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"] Implemente el núcleo de caché global de archivos
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"] Implementa el núcleo de almacenamiento en caché perimetral de BlueXP
 [role="quick-margin-para"]
-Implementar una instancia, o varias instancias, del núcleo de caché de archivos global en el mismo entorno de trabajo que la instancia de Cloud Volumes ONTAP y unirlo al dominio de Active Directory.
+Pon en marcha una instancia, o varias instancias, del núcleo de almacenamiento en caché perimetral de BlueXP en el mismo entorno de trabajo que la instancia de Cloud Volumes ONTAP y únete a tu dominio de Active Directory.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Cuatro"] Memoria caché de archivos global de licencias
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Cuatro"] Licencia para el almacenamiento en caché perimetral de BlueXP
 [role="quick-margin-para"]
-Configure el servicio de servidor de gestión de licencias (LMS) de caché global de archivos en una instancia de núcleo de caché global de archivos. Necesitará sus credenciales de NSS o un ID de cliente y número de suscripción que proporciona NetApp para activar su suscripción.
+Configura el servicio de servidor de administración de licencias (LMS) de almacenamiento en caché perimetral de BlueXP en una instancia de Core. Necesitará sus credenciales de NSS o un ID de cliente y número de suscripción que proporciona NetApp para activar su suscripción.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Cinco"] Implemente las instancias de Global File Cache Edge
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Cinco"] Implemente las instancias de Edge con el almacenamiento en caché en el edge de BlueXP
 [role="quick-margin-para"]
-Consulte link:task-deploy-gfc-edge-instances.html["Implementación de instancias globales de File Cache Edge"^] Para implementar las instancias de Global File Cache Edge en cada ubicación remota. Este paso no se realiza utilizando BlueXP.
+Consulte link:task-deploy-gfc-edge-instances.html["Pon en marcha las instancias de Edge para el almacenamiento en caché en el edge"^] Para poner en marcha las instancias de BlueXP edge caching en cada ubicación remota. Este paso no se realiza utilizando BlueXP.
 
 
 
 === Ponga en marcha Cloud Volumes ONTAP como su plataforma de almacenamiento
 
-Global File Cache es compatible con Cloud Volumes ONTAP implementado en Azure, AWS y Google Cloud. Para obtener detalles sobre los requisitos previos, los requisitos y las instrucciones de puesta en marcha, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^], o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lanzamiento de Cloud Volumes ONTAP en Google Cloud"^]
+El almacenamiento en caché en el edge de BlueXP permite implementar Cloud Volumes ONTAP en Azure, AWS y Google Cloud. Para obtener detalles sobre los requisitos previos, los requisitos y las instrucciones de puesta en marcha, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Inicio de Cloud Volumes ONTAP en Azure"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Inicio de Cloud Volumes ONTAP en AWS"^], o. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lanzamiento de Cloud Volumes ONTAP en Google Cloud"^]
 
-Tenga en cuenta los siguientes requisitos adicionales de caché global de archivos:
+Tenga en cuenta los siguientes requisitos adicionales de almacenamiento en caché en el edge de BlueXP:
 
 * Debe configurar los recursos compartidos de archivos SMB en la instancia de Cloud Volumes ONTAP.
 +
-Si no hay recursos compartidos de archivos SMB configurados en la instancia, se le pedirá que configure los recursos compartidos SMB durante la instalación de los componentes de Global File Cache.
+Si no se configura ningún recurso compartido de archivos SMB en la instancia, se le pedirá que configure los recursos compartidos SMB durante la instalación de los componentes de almacenamiento en caché perimetral de BlueXP.
 
 
 
 
 
-=== Habilite la caché global de archivos en el entorno de trabajo
+=== Habilita el almacenamiento en caché del edge de BlueXP en tu entorno de trabajo
 
-El asistente de caché global de archivos le guía por los pasos para implementar la instancia de servidor de gestión global de caché de archivos y la instancia de núcleo de caché global de archivos, como se indica a continuación.
+El asistente de instalación te guiará por los pasos para implementar la instancia del servidor de administración de almacenamiento en caché perimetral de BlueXP y la instancia de Core del almacenamiento en caché perimetral de BlueXP, como se resalta a continuación.
 
-image:screenshot_gfc_install1.png["Captura de pantalla de la página de instalación de Global File Cache inicial."]
+image:screenshot_gfc_install1.png["Una captura de pantalla de la página inicial de instalación de almacenamiento en caché en el edge de BlueXP."]
 
 .Pasos
 . Seleccione el entorno de trabajo en el que ha implementado Cloud Volumes ONTAP.
-. En el panel Servicios, haga clic en *Activar GFC*.
+. En el panel Servicios, haga clic en *Enable* para el servicio _Edge caching_.
 +
-image:screenshot_gfc_install2.png["Captura de pantalla del botón Enable GFC inicial del entorno de trabajo para habilitar Global File Cache."]
+image:screenshot_gfc_install2.png["Una captura de pantalla del botón Habilitar inicial en el entorno de trabajo para habilitar el almacenamiento en caché perimetral de BlueXP."]
 
 . Lea la página Descripción general y haga clic en *continuar*.
 . Si no hay recursos compartidos de SMB disponibles en la instancia de Cloud Volumes ONTAP, se le pedirá que introduzca los detalles de SMB Server y SMB Share para crear el recurso compartido ahora. Para obtener más detalles sobre la configuración SMB, consulte link:concept-before-you-begin-to-deploy-gfc.html#storage-platform-volumes["Plataforma de almacenamiento dinámica"^].
@@ -88,30 +88,30 @@ image:screenshot_gfc_install3.png["Captura de pantalla que muestra la informaci�
 
 . En la página Global File Cache Service, introduzca el número de instancias de Global File Cache Edge que tiene previsto implementar y, a continuación, asegúrese de que el sistema cumple los requisitos de las reglas de configuración de red y firewall, la configuración de Active Directory y las exclusiones de antivirus. Consulte link:concept-before-you-begin-to-deploy-gfc.html#prerequisites["Requisitos previos"] para obtener más detalles.
 +
-image:screenshot_gfc_install4.png["Captura de pantalla que muestra los requisitos previos antes de implementar las instancias de servidor de administración de caché de archivos global y núcleo."]
+image:screenshot_gfc_install4.png["Una captura de pantalla que muestra los requisitos previos antes de poner en marcha las instancias del servidor de administración y del núcleo de almacenamiento en caché perimetral de BlueXP."]
 
 . Después de verificar que se han cumplido los requisitos o que tiene la información necesaria para cumplir estos requisitos, haga clic en *continuar*.
-. Introduzca las credenciales de administrador que utilizará para acceder a la VM del servidor de gestión de caché de archivos global y haga clic en *Activar GFC Service*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
+. Introduzca las credenciales de administrador que utilizará para acceder a la VM del servidor de administración de almacenamiento en caché perimetral de BlueXP y haga clic en *Habilitar servicio GFC*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
 +
-image:screenshot_gfc_install5.png["Captura de pantalla que muestra la información de configuración necesaria para configurar el servidor de gestión de caché de archivos global."]
+image:screenshot_gfc_install5.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar el servidor de administración de almacenamiento en caché perimetral de BlueXP."]
 
-. Después de implementar correctamente el servicio de administración de caché de archivos global, haga clic en *continuar*.
-. Para Global File Cache Core, introduzca las credenciales de usuario admin para unirse al dominio de Active Directory y las credenciales de usuario de la cuenta de servicio. A continuación, haga clic en *continuar*.
+. Después de que el servicio de administración de almacenamiento en caché perimetral de BlueXP se haya implementado correctamente, haga clic en *Continuar*.
+. Para el núcleo de almacenamiento en caché perimetral de BlueXP, introduzca las credenciales de usuario administrador para unirse al dominio de Active Directory y las credenciales de usuario de la cuenta de servicio. A continuación, haga clic en *continuar*.
 +
-** La instancia núcleo de caché de archivos global debe implementarse en el mismo dominio de Active Directory que la instancia de Cloud Volumes ONTAP.
+** La instancia de núcleo de almacenamiento en caché perimetral de BlueXP debe ponerse en marcha en el mismo dominio de Active Directory que la instancia de Cloud Volumes ONTAP.
 ** La cuenta de servicio es un usuario de dominio y forma parte del grupo BUILTIN\operadores de copia de seguridad de la instancia de Cloud Volumes ONTAP.
 +
-image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar el directorio activo central de caché de archivos global y la cuenta de servicio."]
+image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar la cuenta de servicio y el directorio activo del núcleo de caché perimetral de BlueXP."]
 
 
 
-. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
+. Introduce las credenciales de administración que usarás para acceder al Cloud VM de BlueXP y haz clic en *Deploy GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Es posible cambiar el nombre de la máquina virtual/instancia si se desea.
 +
-image:screenshot_gfc_install7.png["Captura de pantalla que muestra la información de configuración necesaria para configurar la instancia de Global File Cache Core."]
+image:screenshot_gfc_install7.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar la instancia del Core con almacenamiento en caché en edge de BlueXP."]
 
-. Una vez que el núcleo de caché de archivos global se haya implementado correctamente, haga clic en *vaya a Dashboard*.
+. Después de que el núcleo de almacenamiento en caché perimetral de BlueXP se haya implementado correctamente, haga clic en *Ir al panel*.
 +
-image:screenshot_gfc_install8.png["Una captura de pantalla que muestra el panel de caché de archivos global una vez completada la instalación."]
+image:screenshot_gfc_install8.png["Una captura de pantalla que muestra la consola de almacenamiento en caché en el edge de BlueXP una vez completada la instalación."]
 
 
 
@@ -119,27 +119,27 @@ El Panel muestra que la instancia de Management Server y la instancia de Core so
 
 
 
-=== Licencia de la instalación de Global File Cache
+=== Obtén la licencia para la instalación de almacenamiento en caché perimetral de BlueXP
 
-Para poder utilizar Global File Cache, debe configurar el servicio Global File Cache License Management Server (LMS) en una instancia de Global File Cache Core. Necesitará sus credenciales de NSS o un ID de cliente y un número de suscripción proporcionados por NetApp para activar su suscripción.
+Para poder utilizar el almacenamiento en caché perimetral de BlueXP, tienes que configurar el servicio del servidor de administración de licencias (LMS) de almacenamiento en caché perimetral de BlueXP en una instancia de Core. Necesitará sus credenciales de NSS o un ID de cliente y un número de suscripción proporcionados por NetApp para activar su suscripción.
 
 En este ejemplo, configuraremos el servicio LMS en una instancia Core que acaba de poner en marcha en la nube pública. Este es un proceso único que configura el servicio LMS.
 
 .Pasos
-. Abra la página Registro de licencias de la caché global de archivos en el núcleo de la caché global de archivos (el núcleo que está designando como servicio LMS) mediante la siguiente URL. Sustituya _<dirección_ip>_ por la dirección IP de Global File Cache Core:https://<ip_address>/lms/api/v1/config/lmsconfig.html[]
+. Abre la página de registro de licencias de Global File Cache en el núcleo de almacenamiento en caché perimetral de BlueXP (el núcleo que designas como tu servicio de LMS) mediante la siguiente URL. Reemplaza _<ip_address>_ con la dirección IP del núcleo de almacenamiento en caché perimetral de BlueXP:https://<ip_address>/lms/api/v1/config/lmsconfig.html[]
 . Haga clic en * “continuar a este sitio web (no recomendado)”* para continuar. Se muestra una página que permite configurar el LMS o comprobar la información de licencia existente.
 +
-image:screenshot_gfc_license1.png["Captura de pantalla de la página de registro de licencias de Global File Cache."]
+image:screenshot_gfc_license1.png["Una captura de pantalla de la página de Registro de licencias de almacenamiento en caché perimetral de BlueXP."]
 
 . Seleccione el modo de registro:
 +
-** “NetApp LMS” se utiliza para los clientes que han adquirido licencias de NetApp Global File Cache Edge a NetApp o a sus partners certificados. (Preferido)
+** Se utiliza «LMS de NetApp» para clientes que han adquirido licencias de Edge de almacenamiento en caché perimetral de NetApp BlueXP a NetApp o a sus partners certificados. (Preferido)
 ** La opción «LMS heredado» se utiliza para clientes existentes o de prueba que hayan recibido un ID de cliente a través del servicio de soporte de NetApp. (Esta opción quedó obsoleta).
 
 
 . Para este ejemplo, haga clic en *NetApp LMS*, introduzca su ID de cliente (preferiblemente su dirección de correo electrónico) y haga clic en *Register LMS*.
 +
-image:screenshot_gfc_license2.png["Captura de pantalla de introducción de un ID de cliente de LMS en las instalaciones en la página Registro de licencias de caché de archivos global."]
+image:screenshot_gfc_license2.png["Una captura de pantalla que muestra cómo introducir un ID de cliente de LMS en las instalaciones en la página de Registro de licencias de almacenamiento en caché en el edge de BlueXP."]
 
 . Compruebe si hay un correo electrónico de confirmación de NetApp que incluya su número de suscripción de software GFC y su número de serie.
 +
@@ -157,15 +157,15 @@ Verá un mensaje que indica que la suscripción a la licencia de GFC se ha regis
 
 
 .El futuro
-Si ha determinado que necesita implementar varios núcleos de caché global de archivos para admitir su configuración, haga clic en *Agregar instancia principal* en el Panel de control y siga el asistente de implementación.
+Si has determinado que necesitas implementar varios núcleos de almacenamiento en caché perimetral de BlueXP para admitir tu configuración, haz clic en *Agregar instancia principal* en el panel de control y sigue el asistente de implementación.
 
-Una vez finalizada la implementación básica, debe hacerlo link:download-gfc-resources.html["Implemente las instancias de Global File Cache Edge"^] en cada una de sus oficinas remotas.
+Una vez finalizada la implementación básica, debe hacerlo link:download-gfc-resources.html["Implemente las instancias de Edge con el almacenamiento en caché en el edge de BlueXP"^] en cada una de sus oficinas remotas.
 
 
 
 == Puesta en marcha de instancias de Core adicionales
 
-Si su configuración requiere que se instale más de un núcleo de caché de archivos global debido a un gran número de instancias de Edge, puede agregar otro núcleo al entorno de trabajo.
+Si tu configuración requiere que se instale más de un núcleo de almacenamiento en caché perimetral de BlueXP debido a una gran cantidad de instancias de Edge, puedes añadir otro núcleo al entorno de trabajo.
 
 Al implementar instancias de Edge, configurará algunos para que se conecten al primer núcleo y otros al segundo núcleo. Las dos instancias principales acceden al mismo almacenamiento de back-end (su instancia de Cloud Volumes ONTAP) del entorno de trabajo.
 
@@ -175,20 +175,20 @@ image:screenshot_gfc_add_another_core.png["Una captura de pantalla de GFC Dashbo
 
 . Introduzca las credenciales de usuario administrador para unirse al dominio de Active Directory y las credenciales de usuario de la cuenta de servicio. A continuación, haga clic en *continuar*.
 +
-** La instancia núcleo de caché de archivos global debe estar en el mismo dominio de Active Directory que la instancia de Cloud Volumes ONTAP.
+** La instancia de núcleo de almacenamiento en caché perimetral de BlueXP debe estar en el mismo dominio de Active Directory que la instancia de Cloud Volumes ONTAP.
 ** La cuenta de servicio es un usuario de dominio y forma parte del grupo BUILTIN\operadores de copia de seguridad de la instancia de Cloud Volumes ONTAP.
 +
-image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar el directorio activo central de caché de archivos global y la cuenta de servicio."]
+image:screenshot_gfc_install6.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar la cuenta de servicio y el directorio activo del núcleo de caché perimetral de BlueXP."]
 
 
 
-. Introduzca las credenciales de administración que utilizará para acceder a la VM principal de caché de archivos global y haga clic en *implementar GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Puede cambiar el nombre de la máquina virtual si desea.
+. Introduce las credenciales de administración que usarás para acceder al Cloud VM de BlueXP y haz clic en *Deploy GFC Core*. Para Azure y Google Cloud, debe introducir las credenciales como nombre de usuario y contraseña; en AWS, seleccione la pareja de claves adecuada. Puede cambiar el nombre de la máquina virtual si desea.
 +
-image:screenshot_gfc_install7.png["Captura de pantalla que muestra la información de configuración necesaria para configurar la instancia de Global File Cache Core."]
+image:screenshot_gfc_install7.png["Una captura de pantalla que muestra la información de configuración necesaria para configurar la instancia del Core con almacenamiento en caché en edge de BlueXP."]
 
-. Una vez que el núcleo de caché de archivos global se haya implementado correctamente, haga clic en *vaya a Dashboard*.
+. Después de que el núcleo de almacenamiento en caché perimetral de BlueXP se haya implementado correctamente, haga clic en *Ir al panel*.
 +
-image:screenshot_gfc_dashboard_2cores.png["Una captura de pantalla que muestra el panel de caché de archivos global una vez completada la instalación."]
+image:screenshot_gfc_dashboard_2cores.png["Una captura de pantalla que muestra la consola de almacenamiento en caché en el edge de BlueXP una vez completada la instalación."]
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: fixed-issues.html 
 keywords: fixed issues, release notes, fixes, gfc, global file cache 
-summary: Vea qué problemas se han solucionado en la caché de archivos global. 
+summary: Consulta los problemas que se han solucionado en el almacenamiento en caché perimetral de BlueXP. 
 ---
-= Se han solucionado problemas en la caché global de archivos
+= Problemas solucionados en el almacenamiento en caché perimetral de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Vea qué problemas se han solucionado en la caché de archivos global.
 
 
 [role="lead"]
-Vea qué problemas se han solucionado en la caché de archivos global.
+Consulta los problemas que se han solucionado en el almacenamiento en caché perimetral de BlueXP.
 
 
 

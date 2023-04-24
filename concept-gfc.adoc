@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-gfc.html 
 keywords: global file cache 
-summary: NetApp Global File Cache le permite consolidar silos de servidores de archivos distribuidos en un espacio de almacenamiento global cohesivo en el cloud público. Esto crea un sistema de archivos con acceso global en la nube que todas las ubicaciones remotas pueden usar como si fueran locales. 
+summary: El almacenamiento en caché perimetral de NetApp BlueXP te permite consolidar silos de servidores de archivos distribuidos en una huella de almacenamiento global y cohesionada en la nube pública. Esto crea un sistema de archivos con acceso global en la nube que todas las ubicaciones remotas pueden usar como si fueran locales. 
 ---
-= Obtenga más información sobre la caché global de archivos
+= Obtén más información sobre el almacenamiento en caché del edge de BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,23 @@ summary: NetApp Global File Cache le permite consolidar silos de servidores de a
 
 
 [role="lead"]
-NetApp Global File Cache le permite consolidar silos de servidores de archivos distribuidos en un espacio de almacenamiento global cohesivo en el cloud público. Esto crea un sistema de archivos con acceso global en la nube que todas las ubicaciones remotas pueden usar como si fueran locales.
+El almacenamiento en caché perimetral de NetApp BlueXP te permite consolidar silos de servidores de archivos distribuidos en una huella de almacenamiento global y cohesionada en la nube pública. Esto crea un sistema de archivos con acceso global en la nube que todas las ubicaciones remotas pueden usar como si fueran locales.
+
+El almacenamiento en caché perimetral de BlueXP está disponible en dos modos de implementación para adaptarse a su arquitectura empresarial: Como en un servicio integrado combinado en una instancia de Cloud Volumes ONTAP (Cloud Volumes Edge Cache) o como componente complementario para su estrategia de almacenamiento empresarial (Global File Cache).
 
 
 
 == Descripción general
 
-La implementación de Global File Cache da como resultado un único espacio de almacenamiento centralizado, frente a una arquitectura de almacenamiento distribuido que requiere gestión de datos local, backup, gestión de la seguridad, almacenamiento e infraestructura en cada ubicación.
+La implementación del almacenamiento en caché perimetral de BlueXP da como resultado una única huella de almacenamiento centralizada en comparación con una arquitectura de almacenamiento distribuida que requiere gestión de datos locales, backup, gestión de seguridad, almacenamiento y espacio de la infraestructura en cada ubicación.
 
-image:diagram_gfc_image1.png["Un diagrama que muestra cómo las ubicaciones remotas acceden a un único sistema de archivos compartidos mediante la caché de archivos global."]
+image:diagram_gfc_image1.png["Un diagrama que muestra cómo las ubicaciones de oficinas remotas acceden a un único sistema de archivos compartido mediante el almacenamiento en caché perimetral de BlueXP."]
 
 
 
 == Funciones
 
-La caché global de archivos habilita las siguientes características:
+El almacenamiento en caché perimetral de BlueXP ofrece las siguientes funciones:
 
 * Consolide y centralice sus datos en el cloud público y en las aplicaciones aproveche la escalabilidad y el rendimiento de las soluciones de almacenamiento de clase empresarial
 * Crear un único conjunto de datos para usuarios de todo el mundo y aprovechar el almacenamiento en caché inteligente de archivos para mejorar el rendimiento, la colaboración y el acceso a los datos
@@ -36,57 +38,57 @@ La caché global de archivos habilita las siguientes características:
 * Acceso transparente desde sucursales a través de un espacio de nombre global con bloqueo central de archivos en tiempo real
 
 
-Consulte más información sobre las funciones y los casos de uso de la caché global de archivos https://bluexp.netapp.com/global-file-cache["aquí"^].
+Consulta más información sobre las funciones de almacenamiento en caché perimetral de BlueXP y los casos de uso https://bluexp.netapp.com/global-file-cache["aquí"^].
 
 
 
-== Componentes de caché de archivos global
+== Componentes de almacenamiento en caché perimetral de BlueXP
 
-La caché global de archivos consta de los siguientes componentes:
+El almacenamiento en caché perimetral de BlueXP consta de los siguientes componentes:
 
-* Servidor de gestión de caché de archivos global
-* Núcleo de caché de archivos global
-* Global File Cache Edge (puesta en marcha en ubicaciones remotas)
+* Servidor de gestión
+* Núcleo
+* Edge (puesto en marcha en ubicaciones remotas)
 
 
-La instancia de almacenamiento central en caché de archivos global se monta en los recursos compartidos de archivos de su empresa alojados en la plataforma de almacenamiento de back-end elegida (como Cloud Volumes ONTAP, Cloud Volumes Service, Y Azure NetApp Files), además de crear la estructura "Fabric" de la caché de archivos global, que permite centralizar y consolidar datos no estructurados en un único conjunto de datos, ya residan en una o varias plataformas de almacenamiento del cloud público.
+La instancia de núcleo de almacenamiento en caché perimetral de BlueXP se monta en los recursos compartidos de archivos corporativos alojados en la plataforma de almacenamiento back-end elegida (como Cloud Volumes ONTAP, Cloud Volumes Service, Y Azure NetApp Files) y crea la estructura de almacenamiento en caché perimetral de BlueXP que proporciona la capacidad de centralizar y consolidar datos no estructurados en un único conjunto de datos, independientemente de si residen en una o en varias plataformas de almacenamiento en el cloud público.
 
-image:diagram_gfc_image2.png["Un diagrama que muestra los detalles de una implementación de caché de archivos global con software instalado en oficinas remotas y en un servidor central en la nube."]
+image:diagram_gfc_image2.png["Un diagrama que muestra los detalles de una puesta en marcha de almacenamiento en caché en el edge de BlueXP con software instalado en oficinas remotas y en un servidor central en la nube."]
 
 
 
 == Plataformas de almacenamiento compatibles
 
-Las plataformas de almacenamiento compatibles con Global File Cache varían en función de la opción de implementación seleccionada.
+Las plataformas de almacenamiento compatibles para el almacenamiento en caché perimetral de BlueXP difieren en función de la opción de implementación que seleccione.
 
 
 
 === Opciones de puesta en marcha automatizadas
 
-La memoria caché de archivos global es compatible con los siguientes tipos de entornos de trabajo cuando se implementa usando BlueXP (anteriormente Cloud Manager):
+El almacenamiento en caché perimetral de BlueXP es compatible con los siguientes tipos de entornos de trabajo cuando se implementa mediante BlueXP:
 
 * Cloud Volumes ONTAP en Azure
 * Cloud Volumes ONTAP en AWS
 * Cloud Volumes ONTAP en Google Cloud
 
 
-Esta configuración le permite implementar y administrar toda la implementación del servidor de caché de archivos global, incluido Global File Cache Management Server y Global File Cache Core, desde BlueXP.
+Esta configuración te permite poner en marcha y gestionar toda la puesta en marcha del lado del servidor de almacenamiento en caché perimetral de BlueXP, incluidos el servidor de gestión del almacenamiento en caché perimetral de BlueXP y el núcleo de almacenamiento en caché perimetral de BlueXP, desde BlueXP.
 
 
 
 === Opciones de puesta en marcha manual
 
-Las configuraciones de caché de archivos global también son compatibles con Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSX para sistemas ONTAP y Cloud Volumes Service en Google Cloud. Las soluciones en las instalaciones también están disponibles en las plataformas AFF y FAS de NetApp. En estas instalaciones, los componentes del servidor de la caché global de archivos deben configurarse e implementarse manualmente, no utilizando BlueXP.
+Las configuraciones de almacenamiento en caché en el edge de BlueXP también son compatibles con Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSx para sistemas ONTAP y Cloud Volumes Service en Google Cloud. Las soluciones en las instalaciones también están disponibles en las plataformas AFF y FAS de NetApp. En estas instalaciones, los componentes del lado del servidor de almacenamiento en caché perimetral de BlueXP se deben configurar y poner en marcha de forma manual, no mediante BlueXP.
 
 Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más detalles.
 
 
 
-== Funcionamiento de la caché global de archivos
+== Funcionamiento del almacenamiento en caché perimetral de BlueXP
 
-Global File Cache crea una estructura de software que almacena en caché los conjuntos de datos activos en oficinas remotas globalmente. Como resultado, se garantiza a los usuarios empresariales un acceso transparente a los datos y un rendimiento óptimo a escala global.
+El almacenamiento en caché perimetral de BlueXP crea una estructura de software que almacena en caché los conjuntos de datos activos en oficinas remotas de todo el mundo. Como resultado, se garantiza a los usuarios empresariales un acceso transparente a los datos y un rendimiento óptimo a escala global.
 
-image:diagram_gfc_image3.png["Un diagrama que muestra los componentes de la caché global de archivos en Edge y Core."]
+image:diagram_gfc_image3.png["Un diagrama donde se muestran componentes de almacenamiento en caché en el edge y el core de BlueXP."]
 
 La topología a la que se hace referencia en este ejemplo es un modelo de concentrador y radio, en el que la red de oficinas remotas/ubicaciones está accediendo a un conjunto común de datos en la nube. Los puntos clave de este ejemplo son:
 
@@ -95,11 +97,11 @@ La topología a la que se hace referencia en este ejemplo es un modelo de concen
 ** Plataforma de almacenamiento en cloud público empresarial, como Cloud Volumes ONTAP
 
 
-* Estructura de caché de archivos global:
+* Estructura de almacenamiento en caché en el edge de BlueXP:
 +
 ** Extensión del almacén de datos central a las ubicaciones remotas
-** Instancia central de caché de archivos global, montaje en recursos compartidos de archivos corporativos (SMB).
-** Instancias de Global File Cache Edge que se ejecutan en cada ubicación remota.
+** Almacenamiento en caché perimetral de BlueXP Instancia de núcleo, montaje en recursos compartidos de archivos corporativos (SMB).
+** Las instancias de Edge se ejecutan en cada ubicación remota.
 ** Presenta un recurso compartido de archivos virtual en cada ubicación remota que proporciona acceso a los datos centrales.
 ** Aloja la caché de archivos inteligente en un volumen NTFS de tamaño personalizado (`D:\`).
 
@@ -117,19 +119,19 @@ La topología a la que se hace referencia en este ejemplo es un modelo de concen
 
 == Coste
 
-El coste de uso de la caché de archivos global depende del tipo de instalación que haya elegido.
+El coste del uso del almacenamiento en caché perimetral de BlueXP depende del tipo de instalación que hayas elegido.
 
 * Todas las instalaciones requieren que usted ponga en marcha uno o más volúmenes en el cloud (por ejemplo, Cloud Volumes ONTAP, Cloud Volumes Service o Azure NetApp Files). Esto resulta en cargos del proveedor de cloud seleccionado.
 * Todas las instalaciones también requieren la puesta en marcha de dos o más máquinas virtuales (VM) en el cloud. Esto resulta en cargos del proveedor de cloud seleccionado.
 +
-** Servidor de gestión global de caché de archivos:
+** Servidor de gestión de almacenamiento en caché perimetral de BlueXP:
 +
 En Azure, se ejecuta en una máquina virtual D2S_V3 o equivalente (2 vCPU/8 GB de RAM) con SSD estándar de 127 GB
 
 +
 En AWS, se ejecuta en una instancia m4.Large o equivalente (2 vCPU/8 GB de RAM) con SSD de 127 GB de uso general
 
-** Núcleo de caché de archivos global:
+** Núcleo de almacenamiento en caché perimetral de BlueXP:
 +
 En Azure, se ejecuta en una máquina virtual d4s_V3 o equivalente (4 vCPU/16 GB de RAM) con 127 GB de SSD premium
 
@@ -140,18 +142,18 @@ En AWS, se ejecuta en una instancia m4.xlarge o equivalente (4 vCPU/16 GB de RAM
 
 * Cuando se instala con Cloud Volumes ONTAP (las configuraciones compatibles puestas en marcha completamente mediante BlueXP), hay dos opciones de precio:
 +
-** Para los sistemas Cloud Volumes ONTAP, puede pagar 3,000 USD por cada instancia de Global File Cache Edge al año.
-** Además, para los sistemas Cloud Volumes ONTAP en Azure y GCP, puede elegir el paquete Cloud Volumes ONTAP Edge Cache. Esta licencia basada en capacidad le permite poner en marcha una única instancia global File Cache Edge para cada 3 TIB de capacidad adquirida. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Más información aquí"].
+** En los sistemas Cloud Volumes ONTAP, puedes pagar $3.000 USD por cada instancia de Edge de almacenamiento en caché perimetral de BlueXP al año.
+** Además, para los sistemas Cloud Volumes ONTAP en Azure y GCP, puede elegir el paquete Cloud Volumes ONTAP Edge Cache. Esta licencia basada en la capacidad te permite poner en marcha una única instancia de almacenamiento en caché perimetral de BlueXP para cada 3 TiB de capacidad adquirida. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Más información aquí"^].
 
 
-* Cuando se instala con las opciones de implementación manual, el precio es diferente. Para ver una estimación de costes de alto nivel, consulte https://cloud.netapp.com/global-file-cache/roi["Calcule cuánto puede ahorrar"^] También puede consultar al ingeniero de soluciones de caché global de archivos si desea obtener más información sobre las mejores opciones para la implementación de su empresa.
+* Cuando se instala con las opciones de implementación manual, el precio es diferente. Para ver una estimación de costes de alto nivel, consulte https://bluexp.netapp.com/global-file-cache/roi["Calcule cuánto puede ahorrar"^] También puede consultar a su ingeniero de soluciones de NetApp si quiere hablar de las mejores opciones para la puesta en marcha de su empresa.
 
 
 
 
 == Licencia
 
-Global File Cache incluye un servidor de gestión de licencias (LMS) basado en software, que permite consolidar la gestión de licencias e implantar licencias en todas las instancias de Core y Edge mediante un mecanismo automatizado.
+El almacenamiento en caché perimetral de BlueXP incluye un servidor de administración de licencias (LMS) basado en software, que te permite consolidar la gestión de licencias e implementar licencias en todas las instancias del núcleo y el perímetro mediante un mecanismo automatizado.
 
 Al implementar la primera instancia de Core en el centro de datos o en la nube, puede elegir designar dicha instancia como la LMS para su organización. Esta instancia LMS se configura una vez, se conecta al servicio de suscripción (a través de HTTPS) y valida su suscripción utilizando el ID de cliente proporcionado por nuestro departamento de soporte/operaciones al habilitar la suscripción. Después de realizar esta designación, asocie las instancias de Edge con el LMS proporcionando el ID de cliente y la dirección IP de la instancia de LMS.
 
@@ -163,6 +165,6 @@ Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20U
 
 == Limitaciones
 
-La versión de Global File Cache compatible con BlueXP requiere que la plataforma de almacenamiento back-end utilizada como almacenamiento central debe ser un entorno de trabajo en el que haya implementado un único nodo de Cloud Volumes ONTAP o un par de alta disponibilidad en Azure, AWS o Google Cloud.
+La versión de almacenamiento en caché perimetral de BlueXP compatible con BlueXP (Cloud Volumes Edge Cache) requiere que la plataforma de almacenamiento de back-end utilizada como almacenamiento central debe ser un entorno de trabajo donde haya puesto en marcha un nodo único de Cloud Volumes ONTAP o un par de alta disponibilidad en Azure, AWS o Google Cloud.
 
 Actualmente, otras plataformas de almacenamiento no son compatibles con BlueXP, pero se pueden implementar utilizando procedimientos de implementación anteriores. El resto de configuraciones, por ejemplo, Global File Cache con Amazon FSX para sistemas ONTAP, Azure NetApp Files o Cloud Volumes Service en Google Cloud, son compatibles con procedimientos anteriores. Consulte https://bluexp.netapp.com/global-file-cache/onboarding["Incorporación e información general sobre la caché de archivos global"^] para obtener más detalles.
