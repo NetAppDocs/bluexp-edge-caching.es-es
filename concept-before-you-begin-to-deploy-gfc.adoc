@@ -89,7 +89,7 @@ Si no ha configurado al menos un recurso compartido de archivos SMB en la instan
 * El nombre y el tamaño del volumen que se desea crear, el nombre del agregado en el que se creará el volumen y el nombre del recurso compartido.
 
 
-Recomendamos que el volumen sea lo suficientemente grande como para alojar el conjunto de datos total para la aplicación junto con la capacidad de escalar en función de lo que crezca el conjunto de datos. Si tiene varios agregados en el entorno de trabajo, consulte https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-aggregates.html["Gestión de los agregados existentes"^] para determinar qué agregado tiene el espacio más disponible para el nuevo volumen.
+Recomendamos que el volumen sea lo suficientemente grande como para alojar el conjunto de datos total para la aplicación junto con la capacidad de escalar en función de lo que crezca el conjunto de datos. Si tiene varios agregados en el entorno de trabajo, consulte https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-aggregates.html["Gestión de los agregados existentes"^] para determinar qué agregado tiene el espacio más disponible para el nuevo volumen.
 
 
 
