@@ -18,6 +18,32 @@ Consulta los problemas que se han solucionado en el almacenamiento en caché per
 
 
 
+== 1 de agosto de 2023 (versión 2,3)
+
+* Se han realizado las siguientes correcciones de la interfaz de usuario de Optimus Configuration:
++
+** Muestra información significativa para errores en lugar de cadenas de excepción.
+** Muestra la fecha de caducidad de la licencia correctamente en lugar de los valores predeterminados.
+** Muestra correctamente los campos de nombre de usuario/contraseña cuando SSL está habilitado en la interfaz de usuario.
+** No deja de responder cuando se configura un núcleo GFC inaccesible en la ficha de configuración Optimus UI Edge.
+** Permite seleccionar varios nombres de caché/borde en la lista desplegable Borde.
+
+
+* La información de resumen de licencia se muestra correctamente mientras se visualizan las licencias caducadas y no vencidas.
+* Se ha corregido que el servicio TappN se reiniciara sólo cuando la configuración se actualizara correctamente.
+* Se ha agregado un botón de actualización en el asistente por primera vez para mostrar el número de aristas.
+* La información de SSL ahora se muestra en la página de resumen del asistente por primera vez.
+* Se ha añadido infraestructura en Tum para permitir la configuración de tiempos de espera de minivolcado y realizar un minivolcado correctamente.
+* Optimus y el asistente por primera vez mostrarán el recuento de licencias apropiado y mostrarán una excepción cuando el recuento de licencias se convierta en cero.
+* Optimus PSM ahora muestra un mensaje de error apropiado cuando el nombre del servidor Edge introducido está vacío.
+* Se ha solucionado un problema por el que los trabajos de rellenado previo no se aplicaban correctamente a varios nombres de caché en Optimus PSM.
+* La configuración del Administrador de licencias se ha mejorado para mostrar errores graves en lugar de errores de software.
+* La interfaz de usuario de registro de Zoura mostrará un error si ya está configurada.
+* Optimus UI y Optimus PSM ahora muestran los requisitos de CPU y memoria de 8 CPU y 32 GB de RAM respectivamente.
+
+
+
+
 == 27 de marzo de 2023 (versión 2.2)
 
 * Se ha solucionado el problema de convertir el formato de tiempo de ejecución de un trabajo de rellenado previo para la opción de "última modificación de tiempo".
@@ -75,16 +101,4 @@ Consulta los problemas que se han solucionado en el almacenamiento en caché per
 * El servicio de rellenado previo de TappN se actualiza para omitir los archivos de recuperación si el espacio libre en la caché cae por debajo del valor del umbral inferior.
 * Se ha solucionado un problema en el servicio de servidor de License Manager (LMS) mientras se escribía un registro de rastreo.
 * La infraestructura de registro de Tum se actualiza para ser más escalable con un alto rendimiento.
-
-
-
-
-== 17 de diciembre de 2021 (versión 1.2.0)
-
-* La interfaz de usuario de configuración (Optimus) se ha mejorado para validar las entradas del campo de fecha al mismo tiempo que se agregan trabajos de rellenado previo.
-* La rellenado previo se mejora para supervisar el uso de la caché y se omite el rellenado si el uso de la caché alcanza cerca de los parámetros de limpieza de la caché.
-* Se ha eliminado la dependencia rígida del servicio del servidor de administración de licencias (LMS) que se ejecuta localmente con la configuración de directivas.
-* El controlador GFC Kernel se ha mejorado para evitar un bloqueo en el servicio SMB Server en Windows Server 2016/2019.
-* Se ha corregido una excepción en el servicio LMS.
-* Los tipos de inicio de servicio para el servicio de servidor de License Manager (LMS), el servicio de cliente de License Manager (LMC) y el servicio de rellenado previo (TappN) se cambian de "retardado automático" a "automático".
 

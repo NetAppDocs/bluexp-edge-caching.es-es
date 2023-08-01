@@ -30,4 +30,4 @@ link:media/Global_File_Cache_Onboarding_Email.msg["Plantilla de correo electrón
 * Comunicaciones de incorporaciónlink:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Customer%20Onboarding%20-%20Draft.docx["Documento de Word (.docx)"]
 
 
-Consulte el capítulo 14 de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para material adicional.
+Consulte el capítulo 14 en la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para material adicional.

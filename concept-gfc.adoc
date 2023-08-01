@@ -80,7 +80,7 @@ Esta configuración te permite poner en marcha y gestionar toda la puesta en mar
 
 Las configuraciones de almacenamiento en caché en el edge de BlueXP también son compatibles con Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSx para sistemas ONTAP y Cloud Volumes Service en Google Cloud. Las soluciones en las instalaciones también están disponibles en las plataformas AFF y FAS de NetApp. En estas instalaciones, los componentes del lado del servidor de almacenamiento en caché perimetral de BlueXP se deben configurar y poner en marcha de forma manual, no mediante BlueXP.
 
-Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más detalles.
+Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más detalles.
 
 
 
@@ -159,7 +159,7 @@ Al implementar la primera instancia de Core en el centro de datos o en la nube, 
 
 Al adquirir licencias Edge adicionales o renovar su suscripción, nuestro departamento de soporte/operaciones actualiza los detalles de la licencia, por ejemplo, el número de sitios o la fecha de finalización de la suscripción. Una vez que LMS consulta al servicio de suscripción, los detalles de la licencia se actualizan automáticamente en la instancia de LMS y se aplican a las instancias de GFC Core y Edge.
 
-Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más información sobre las licencias.
+Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más información sobre las licencias.
 
 
 

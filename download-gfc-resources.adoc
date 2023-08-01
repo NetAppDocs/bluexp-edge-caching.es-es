@@ -24,17 +24,17 @@ Descargue las plantillas virtuales de almacenamiento en caché de BlueXP que pla
 
 * Plantilla virtual de Windows Server 2016:
 +
-https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["Windows Server 2016 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["Windows Server 2016 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
+https://repo.cloudsync.netapp.com/gfc/2k16-2_3_0-55.zip["Windows Server 2016 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_3_0_55IMAGE.zip["Windows Server 2016 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
 
 * Plantilla virtual de Windows Server 2019:
 +
-https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 2019 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["Windows Server 2019 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
+https://repo.cloudsync.netapp.com/gfc/2k19-2_3_0-55.zip["Windows Server 2019 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["Windows Server 2019 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"^]
 
-* Software de almacenamiento en caché perimetral de BlueXP:
+* Software BlueXP Edge Caching Edge:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["Paquete de instalación de software GFC de NetApp (.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["Paquete de instalación de software GFC de NetApp (.EXE)"^]
 
 * Paneles de control de caché de archivos global para Cloud Insights:
 +
@@ -42,11 +42,11 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["Paneles Cloud Insig
 
 * Documentación de Global File Cache:
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de NetApp Global File Cache (.PDF)"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de NetApp Global File Cache (.PDF)"^]
 
 
 
-Link:task-deploy-gfc-edge-instances.html#update-bluexp-edge caching-edge-software[Siga estos pasos] para actualizar su software BlueXP edge caching.
+link:task-deploy-gfc-edge-instances.html#update-bluexp-edge-caching-edge-software["Siga estos pasos"] Para actualizar el software BlueXP Edge de almacenamiento en caché perimetral.
 
 
 NOTE: Al poner en marcha el almacenamiento en caché perimetral de BlueXP en Windows Server 2016, debería utilizar .NET Framework 4,8 y el marco de Windows WebView2.
@@ -149,7 +149,7 @@ Edge se ejecuta en Windows Server 2016 y 2019, por lo que la plataforma de virtu
 
 La latencia de disco en el disco de caché de archivos inteligente (D:\) de Global File Cache debería ofrecer una latencia de disco de I/o media de < 0,5 ms y un rendimiento de 1 MB por usuario simultáneo.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -170,7 +170,7 @@ El almacenamiento en caché perimetral de BlueXP se integra de manera transparen
 
 Para garantizar una experiencia y un rendimiento óptimos, es importante cumplir con los requisitos y las prácticas recomendadas del cliente de Microsoft Windows, tal y como se describe en la Guía del usuario de la caché global de archivos. Esto se aplica a todas las versiones de Microsoft Windows.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -178,7 +178,7 @@ Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/G
 
 Mientras que el almacenamiento en caché perimetral de BlueXP hace un esfuerzo razonable para validar que los paquetes de aplicaciones antivirus más comunes son compatibles con Global File Cache, NetApp no puede garantizar ni se responsabiliza de las incompatibilidades o problemas de rendimiento ocasionados por estos programas o las actualizaciones, los Service Packs o las modificaciones asociadas.
 
-NetApp no recomienda la instalación ni la aplicación de supervisión o soluciones antivirus en ninguna instancia habilitada con almacenamiento en caché perimetral de BlueXP (el núcleo o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+NetApp no recomienda la instalación ni la aplicación de supervisión o soluciones antivirus en ninguna instancia habilitada con almacenamiento en caché perimetral de BlueXP (el núcleo o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 
@@ -204,12 +204,12 @@ NetApp no recomienda la instalación ni la aplicación de supervisión o solucio
 
 === Mejores prácticas de antivirus
 
-NetApp ha probado productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro y Kaspersky, Crowd Strike, Cisco AMP, Tannium y Windows Defender para su uso en combinación con el almacenamiento en caché perimetral de BlueXP. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^]
+NetApp ha probado productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro y Kaspersky, Crowd Strike, Cisco AMP, Tannium y Windows Defender para su uso en combinación con el almacenamiento en caché perimetral de BlueXP. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^]
 
 
 NOTE: Añadir antivirus a un dispositivo Edge puede tener un efecto del 10-20% sobre el rendimiento del usuario.
 
-Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
+Para obtener más información, consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^].
 
 
 

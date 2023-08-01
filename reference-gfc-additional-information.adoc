@@ -21,7 +21,7 @@ Utiliza los siguientes enlaces para obtener más información sobre el almacenam
 ** Vea una lista de preguntas y respuestas más frecuentes https://bluexp.netapp.com/global-file-cache-faq["aquí"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["Guía del usuario de caché de archivos global"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché de archivos global"^]
 * Documentación de productos de NetApp
 +
 ** Consulte documentación adicional para los productos cloud de NetApp https://docs.netapp.com/us-en/cloud/["aquí"^]
