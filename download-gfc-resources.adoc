@@ -95,8 +95,8 @@ El paquete de instalación de almacenamiento en caché perimetral de BlueXP crea
 
 === Requisitos físicos de hardware
 
-* 4 núcleos de CPU como mínimo
-* 16 GB de RAM como mínimo
+* 8 núcleos de CPU mínimo
+* 32 GB mínimo de RAM
 * NIC dedicado único o redundante de 1 Gbps
 * SSD o HDD SAS de 10 000 rpm (opción preferida)
 * Controladora RAID con la funcionalidad de almacenamiento en caché de escritura simultánea habilitada
@@ -112,15 +112,15 @@ Para obtener el mejor rendimiento en entornos virtuales, además de los requisit
 
 Microsoft Hyper-V 2012 R2 y posterior:
 
-* Procesador (CPU): Las CPU deben establecerse como *estático*: Mínimo: 4 núcleos vCPU.
-* Memoria (RAM): Mínimo: 16 GB establecido como *estático*.
+* Procesador (CPU): Las CPU deben configurarse como *Static*: Mínimo: 8 núcleos vCPU.
+* Memoria (RAM): Mínimo: 32 GB establecido como *Estático*.
 * Aprovisionamiento de discos duros: Los discos duros deben configurarse como *disco fijo*.
 
 
 VMware vSphere 6.x y posteriores:
 
-* Procesador (CPU): Se debe establecer la reserva de los ciclos de la CPU. Mínimo: 4 núcleos vCPU a 10000 MHz.
-* Memoria (RAM): Mínimo: Reserva de 16 GB.
+* Procesador (CPU): Se debe establecer la reserva de los ciclos de la CPU. Mínimo: 8 núcleos vCPU @ 10000 MHz.
+* Memoria (RAM): Mínimo: Reserva de 32 GB.
 * Provisionamiento de discos duros:
 +
 ** El aprovisionamiento de disco debe definirse como *Thick provisioned eager zeroed*.

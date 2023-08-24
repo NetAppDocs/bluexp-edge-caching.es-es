@@ -119,15 +119,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legales</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Los avisos legales proporcionan acceso a las declaraciones de copyright, marcas comerciales, patentes y mucho más.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Derechos de autor</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciales</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, el logotipo de NETAPP y las marcas enumeradas en la página de marcas comerciales de NetApp son marcas comerciales de NetApp, Inc. Los demás nombres de empresas y productos son marcas comerciales de sus respectivos propietarios.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Estadounidenses</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Puede encontrar una lista actual de las patentes propiedad de NetApp en:</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidad</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código abierto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Los archivos de notificación proporcionan información sobre los derechos de autor y las licencias de terceros que se utilizan en software de NetApp.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
@@ -326,19 +322,13 @@
   <block id="763a323edb75b0d5d83ac2607f4b66f9" category="list-text">Asegúrese de que la máquina virtual está conectada a la red, unida al dominio y accesible a través de RDP.</block>
   <block id="831485d3736514b490af98e2fdcac477" category="section-title">Dispositivo servidor reforzado</block>
   <block id="976611c38f37696030731d275b8d5432" category="section-title">Requisitos físicos de hardware</block>
-  <block id="602adfd1d4d2e2ef7316c32670824757" category="list-text">4 núcleos de CPU como mínimo</block>
-  <block id="f5364e9691950b5411b570b3b7444ec4" category="list-text">16 GB de RAM como mínimo</block>
   <block id="007aef1d58264ca7b5e941be27c7efe0" category="list-text">NIC dedicado único o redundante de 1 Gbps</block>
   <block id="683873eb7a29d80efb08b1ec4990f98d" category="list-text">SSD o HDD SAS de 10 000 rpm (opción preferida)</block>
   <block id="27fe2dd4bc7bfc5f6cc10da8e820dd79" category="list-text">Controladora RAID con la funcionalidad de almacenamiento en caché de escritura simultánea habilitada</block>
   <block id="d58b313fe182fc0207ded02961ec8b3e" category="paragraph">Para obtener el mejor rendimiento en entornos virtuales, además de los requisitos físicos del host, se deben cumplir los siguientes requisitos y reservas de recursos:</block>
   <block id="a39c39a13a34c8ae4f43e53b744d7a93" category="paragraph">Microsoft Hyper-V 2012 R2 y posterior:</block>
-  <block id="4b2d1e89406fad567f90d7f405a89a0a" category="list-text">Procesador (CPU): Las CPU deben establecerse como *estático*: Mínimo: 4 núcleos vCPU.</block>
-  <block id="a9c115a547ec0e88e446fac7e1437201" category="list-text">Memoria (RAM): Mínimo: 16 GB establecido como *estático*.</block>
   <block id="e2dc7db2b7946e399b3526201828d47b" category="list-text">Aprovisionamiento de discos duros: Los discos duros deben configurarse como *disco fijo*.</block>
   <block id="193a7828172c581c20b5f99b87f0d8d5" category="paragraph">VMware vSphere 6.x y posteriores:</block>
-  <block id="546eae45bf42f32b489133fe40c615ae" category="list-text">Procesador (CPU): Se debe establecer la reserva de los ciclos de la CPU. Mínimo: 4 núcleos vCPU a 10000 MHz.</block>
-  <block id="da83ed8f749c1aeee277ef8b1e92e603" category="list-text">Memoria (RAM): Mínimo: Reserva de 16 GB.</block>
   <block id="01c789b083ceb94098fc54bf2689692f" category="list-text">Provisionamiento de discos duros:</block>
   <block id="aa9003d495921644b8600f3e28ebe636" category="list-text">El aprovisionamiento de disco debe definirse como *Thick provisioned eager zeroed*.</block>
   <block id="8254451398fa8d542f44b8faf882706e" category="list-text">Los recursos compartidos de disco duro deben configurarse en *Alta*.</block>
@@ -763,4 +753,18 @@
   <block id="09efa83c68cf12fff60c19fb03384093" category="paragraph">Para obtener más información, consulte<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
   <block id="5c6e720ae4e0961cbdcf991a4f7b5126" category="paragraph">NetApp no recomienda la instalación ni la aplicación de supervisión o soluciones antivirus en ninguna instancia habilitada con almacenamiento en caché perimetral de BlueXP (el núcleo o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
   <block id="31acc98f70a8cd7f5a510a0ad5befbe8" category="paragraph">NetApp ha probado productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro y Kaspersky, Crowd Strike, Cisco AMP, Tannium y Windows Defender para su uso en combinación con el almacenamiento en caché perimetral de BlueXP. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block></block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="7fdcb2e7bab8dde968f94629523c3479" category="list-text">8 núcleos de CPU mínimo</block>
+  <block id="c3d7c7f12c2d0cb827f5a59d380cf667" category="list-text">32 GB mínimo de RAM</block>
+  <block id="d92cb6c5ede38c7175493ed5ba01458f" category="list-text">Procesador (CPU): Las CPU deben configurarse como *Static*: Mínimo: 8 núcleos vCPU.</block>
+  <block id="3bcc153cef59db2afe99744853c8dbe7" category="list-text">Memoria (RAM): Mínimo: 32 GB establecido como *Estático*.</block>
+  <block id="2bf278f1b394b05a5448ef798a8d652f" category="list-text">Procesador (CPU): Se debe establecer la reserva de los ciclos de la CPU. Mínimo: 8 núcleos vCPU @ 10000 MHz.</block>
+  <block id="dd252ee19a826baa2383e45dcf0c937f" category="list-text">Memoria (RAM): Mínimo: Reserva de 32 GB.</block>
 </blocks>
