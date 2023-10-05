@@ -131,12 +131,18 @@ En Azure, se ejecuta en una máquina virtual D2S_V3 o equivalente (2 vCPU/8 GB d
 +
 En AWS, se ejecuta en una instancia m4.Large o equivalente (2 vCPU/8 GB de RAM) con SSD de 127 GB de uso general
 
++
+En Google Cloud, se ejecuta en una instancia n2-standard-2 o equivalente (2 vCPU/8 GB de RAM) con 127 GB de SSD de propósito general
+
 ** Núcleo de almacenamiento en caché perimetral de BlueXP:
 +
-En Azure, se ejecuta en una máquina virtual d4s_V3 o equivalente (4 vCPU/16 GB de RAM) con 127 GB de SSD premium
+En Azure, esto se ejecuta en una máquina virtual D8s_V4 o equivalente (8 vCPU/32 GB de RAM) con SSD premium de 127 GB
 
 +
-En AWS, se ejecuta en una instancia m4.xlarge o equivalente (4 vCPU/16 GB de RAM) con 127 GB de SSD de uso general
+En AWS, se ejecuta en una instancia de m4,2xlarge o equivalente (8 vCPU/32 GB de RAM) con SSD de propósito general de 127 GB
+
++
+En Google Cloud, se ejecuta en una instancia n2-standard-8 o equivalente (8 vCPU/32 GB de RAM) con 127 GB de SSD de propósito general
 
 
 

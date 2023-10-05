@@ -197,8 +197,6 @@
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">Todas las instalaciones también requieren la puesta en marcha de dos o más máquinas virtuales (VM) en el cloud. Esto resulta en cargos del proveedor de cloud seleccionado.</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">En Azure, se ejecuta en una máquina virtual D2S_V3 o equivalente (2 vCPU/8 GB de RAM) con SSD estándar de 127 GB</block>
   <block id="c6b798b0bebd4b2ec1cf891e6cd66c67" category="paragraph">En AWS, se ejecuta en una instancia m4.Large o equivalente (2 vCPU/8 GB de RAM) con SSD de 127 GB de uso general</block>
-  <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">En Azure, se ejecuta en una máquina virtual d4s_V3 o equivalente (4 vCPU/16 GB de RAM) con 127 GB de SSD premium</block>
-  <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">En AWS, se ejecuta en una instancia m4.xlarge o equivalente (4 vCPU/16 GB de RAM) con 127 GB de SSD de uso general</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">Más información aquí</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">Calcule cuánto puede ahorrar</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licencia</block>
@@ -386,7 +384,6 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog de BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">Otros recursos</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilice opciones de soporte automático</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Cree un caso con el soporte de NetApp</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:</block>
@@ -769,4 +766,8 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenga soporte para un servicio de archivos de proveedores de cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obtener soporte técnico relacionado con un servicio de archivos del proveedor de cloud, su infraestructura o cualquier solución que utilice el servicio, consulte «Obtener ayuda» en la documentación de BlueXP para ese producto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para recibir soporte técnico específico sobre BlueXP y sus soluciones y servicios de almacenamiento, use las opciones de soporte descritas a continuación.</block>
+  <block id="97928a9e688f12c514398167899b0948" category="paragraph">En Google Cloud, se ejecuta en una instancia n2-standard-2 o equivalente (2 vCPU/8 GB de RAM) con 127 GB de SSD de propósito general</block>
+  <block id="37224270f6fe9a8b986d9aebd0580f24" category="paragraph">En Azure, esto se ejecuta en una máquina virtual D8s_V4 o equivalente (8 vCPU/32 GB de RAM) con SSD premium de 127 GB</block>
+  <block id="de3597f52173f419dfcb5b6093c8f91b" category="paragraph">En AWS, se ejecuta en una instancia de m4,2xlarge o equivalente (8 vCPU/32 GB de RAM) con SSD de propósito general de 127 GB</block>
+  <block id="13a8d1c98f73a6d8e45079d3d40dd107" category="paragraph">En Google Cloud, se ejecuta en una instancia n2-standard-8 o equivalente (8 vCPU/32 GB de RAM) con 127 GB de SSD de propósito general</block>
 </blocks>
