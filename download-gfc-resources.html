@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head class="at-element-marker">
+  <title>Antes de empezar a poner en marcha instancias de Edge sobre almacenamiento en caché perimetral de BlueXP | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Antes de empezar a poner en marcha instancias de Edge sobre almacenamiento en caché perimetral de BlueXP | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/es-es/bluexp-edge-caching/download-gfc-resources.html" />
+	<meta property="og:description" content="Hay muchos requisitos que debes tener en cuenta antes de empezar a instalar el software BlueXP edge caching Edge en tus oficinas remotas." />
+  <meta property="og:image" content="https://docs.netapp.com/es-es/bluexp-edge-caching/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Hay muchos requisitos que debes tener en cuenta antes de empezar a instalar el software BlueXP edge caching Edge en tus oficinas remotas.">
+  <meta name="keywords" content=" global file cache, edge"><!-- Icons -->
+  <link rel="icon" href="/es-es/bluexp-edge-caching/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/es-es/bluexp-edge-caching/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/es-es/bluexp-edge-caching/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/es-es/bluexp-edge-caching/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/es-es/bluexp-edge-caching/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/es-es/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-edge-caching/download-gfc-resources.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-edge-caching/download-gfc-resources.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+        $(".page-nav__link").first().addClass('page-nav__link--active');
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/es-es/bluexp-edge-caching/js/na-search.js'></script><script src='/es-es/bluexp-edge-caching/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/es-es/bluexp-edge-caching/js/custom-dropdown.js'></script>
+  <script src='/es-es/bluexp-edge-caching/js/FileSaver.min.js'></script>
+  <script src='/es-es/bluexp-edge-caching/js/jszip-utils.min.js'></script>
+  <script src='/es-es/bluexp-edge-caching/js/jszip.min.js'></script><script src='/es-es/bluexp-edge-caching/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/es-es/bluexp-edge-caching/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/es/">
+                <image id="ie-header-logo" src="/es-es/bluexp-edge-caching/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/es/support-and-training/documentation/">Documentos</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/es-es/bluexp-edge-caching/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">Español</span>
+                    <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/es-es/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/bluexp-edge-caching/download-gfc-resources.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/es-es/bluexp-edge-caching/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">Todo NetApp</span>
+                    <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/es/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Soporte</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Base de conocimientos</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/es/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Formación</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/es-es/bluexp-edge-caching/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/es-es/bluexp-edge-caching/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">Todos los documentos</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">Documentos de nube</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/es-es/bluexp-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/es-es/bluexp-edge-caching/">-->
+      BlueXP edge caching
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/es-es/bluexp-edge-caching/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/es-es/bluexp-edge-caching/search.html" 
+        data-type="widget"
+        data-placeholder="Buscar documentación"
+        data-no-results-found="No se han encontrado resultados para {query}"
+        data-did-you-mean="Busca {suggestion}."
+        data-no-results-found-did-you-mean="No se ha encontrado ningún resultado para {query}. ¿Querías decir {suggestion}?"
+        data-results-found="{hitCount} resultados encontrados"
+        data-error-message="Se ha producido un error. Por favor, inténtalo de nuevo."
+        data-error-reset="Restablecer búsqueda"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Documentos de almacenamiento en caché perimetral de BlueXP"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/bluexp-edge-caching/index.html">
+        Documentos de almacenamiento en caché perimetral de BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Notas de la versión"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/bluexp-edge-caching/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/bluexp-edge-caching/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Notas de la versión</div>-->
+         Notas de la versión
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Novedades"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/whats-new.html">
+        Novedades
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Problemas solucionados"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/fixed-issues.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/fixed-issues.html">
+        Problemas solucionados
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manos a la obra"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/bluexp-edge-caching/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/bluexp-edge-caching/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manos a la obra</div>-->
+         Manos a la obra
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Obtén más información sobre el almacenamiento en caché del edge de BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/concept-gfc.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/concept-gfc.html">
+        Obtén más información sobre el almacenamiento en caché del edge de BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos previos para el almacenamiento en caché perimetral de BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/concept-before-you-begin-to-deploy-gfc.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/concept-before-you-begin-to-deploy-gfc.html">
+        Requisitos previos para el almacenamiento en caché perimetral de BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pon en marcha y obtén licencias para el almacenamiento en caché perimetral de BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/task-gfc-getting-started.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/task-gfc-getting-started.html">
+        Pon en marcha y obtén licencias para el almacenamiento en caché perimetral de BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Requisitos previos de BlueXP edge caching Edge"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/download-gfc-resources.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/download-gfc-resources.html">
+        Requisitos previos de BlueXP edge caching Edge
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Pon en marcha el almacenamiento en caché en el edge de BlueXP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/task-deploy-gfc-edge-instances.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/task-deploy-gfc-edge-instances.html">
+        Pon en marcha el almacenamiento en caché en el edge de BlueXP
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Utiliza el almacenamiento en caché de edge de BlueXP"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/bluexp-edge-caching/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/bluexp-edge-caching/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Utiliza el almacenamiento en caché de edge de BlueXP</div>-->
+         Utiliza el almacenamiento en caché de edge de BlueXP
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Formación para el usuario final"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/concept-gfc-enduser-training.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/concept-gfc-enduser-training.html">
+        Formación para el usuario final
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Información adicional"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/reference-gfc-additional-information.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/reference-gfc-additional-information.html">
+        Información adicional
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Conocimiento y apoyo"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/es-es/bluexp-edge-caching/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/es-es/bluexp-edge-caching/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Conocimiento y apoyo</div>-->
+         Conocimiento y apoyo
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Regístrese para recibir soporte"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/task-support-registration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/task-support-registration.html">
+        Regístrese para recibir soporte
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Obtenga ayuda"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/task-get-help.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/es-es/bluexp-edge-caching/task-get-help.html">
+        Obtenga ayuda
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Avisos legales"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/download-gfc-resources.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/es-es/bluexp-edge-caching/legal-notices.html">
+        Avisos legales
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/es-es/bluexp-edge-caching"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/es-es/bluexp-edge-caching"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/es-es/bluexp-edge-caching/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> Se proporciona el idioma español mediante traducción automática para su comodidad. En caso de alguna inconsistencia, el inglés precede al español. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Antes de empezar a poner en marcha instancias de Edge sobre almacenamiento en caché perimetral de BlueXP</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2023-08-24 21:32:36 +0000">08/24/2023</time>
+        
+    
+    
+        <span>Colaboradores
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/es-es/bluexp-edge-caching/images/discuss-sm.svg" alt="" class="github-icon" />Sugerir cambios</span>
+        <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-edge-caching.es-es/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/es-es/bluexp-edge-caching/download-gfc-resources.html&page-title=Antes de empezar a poner en marcha instancias de Edge sobre almacenamiento en caché perimetral de BlueXP" class="page-nav-contribute-link" role="button">Solicitar cambios en el documento</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-edge-caching/blob/main/download-gfc-resources.adoc" class="page-nav-contribute-link" role="button">Editar esta página</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >Descubre cómo colaborar</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/es-es/bluexp-edge-caching/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/es-es/bluexp-edge-caching/pdfs/fullsite-sidebar/Documentación_sobre_el_almacenamiento_en_caché_del_edge_de_BlueXP.pdf" >
+                    <img src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>PDF de este sitio de documentos</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/bluexp-edge-caching/pdfs/sidebar/Notas_de_la_versión.pdf" 
+            
+          >
+            <img src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Notas de la versión
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/bluexp-edge-caching/pdfs/sidebar/Manos_a_la_obra.pdf" 
+            
+          >
+            <img src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manos a la obra
+          </a>
+          
+
+
+
+
+
+
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/bluexp-edge-caching/pdfs/sidebar/Utiliza_el_almacenamiento_en_caché_de_edge_de_BlueXP.pdf" 
+            
+          >
+            <img src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Utiliza el almacenamiento en caché de edge de BlueXP
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/es-es/bluexp-edge-caching/pdfs/sidebar/Conocimiento_y_apoyo.pdf" 
+            
+          >
+            <img src="/es-es/bluexp-edge-caching/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Conocimiento y apoyo
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/es-es/bluexp-edge-caching/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Recopilación de documentos PDF independientes<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Hay muchos requisitos que debes tener en cuenta antes de empezar a instalar el software BlueXP edge caching Edge en tus oficinas remotas.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="descargue-los-recursos-necesarios">Descargue los recursos necesarios</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Descargue las plantillas virtuales de almacenamiento en caché de BlueXP que planea utilizar en sus sucursales, el paquete de instalación de software y la documentación de referencia adicional:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Plantilla virtual de Windows Server 2016:</p>
+<div class="paragraph">
+<p><a href="https://repo.cloudsync.netapp.com/gfc/2k16-2_3_0-55.zip" target="_blank" rel="noopener">"Windows Server 2016 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"</a><br>
+<a href="https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_3_0_55IMAGE.zip" target="_blank" rel="noopener">"Windows Server 2016 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"</a></p>
+</div>
+</li>
+<li>
+<p>Plantilla virtual de Windows Server 2019:</p>
+<div class="paragraph">
+<p><a href="https://repo.cloudsync.netapp.com/gfc/2k19-2_3_0-55.zip" target="_blank" rel="noopener">"Windows Server 2019 .OVA, incluido GFC de NetApp (VMware vSphere 6.5+)"</a><br>
+<a href="https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip" target="_blank" rel="noopener">"Windows Server 2019 .VHDX, incluido NetApp GFC (Microsoft Hyper-v)"</a></p>
+</div>
+</li>
+<li>
+<p>Software BlueXP Edge Caching Edge:</p>
+<div class="paragraph">
+<p><a href="https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe" target="_blank" rel="noopener">"Paquete de instalación de software GFC de NetApp (.EXE)"</a></p>
+</div>
+</li>
+<li>
+<p>Paneles de control de caché de archivos global para Cloud Insights:</p>
+<div class="paragraph">
+<p><a href="https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip">"Paneles Cloud Insights GFC de NetApp (.ZIP)"</a></p>
+</div>
+</li>
+<li>
+<p>Documentación de Global File Cache:</p>
+<div class="paragraph">
+<p><a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de NetApp Global File Cache (.PDF)"</a></p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="task-deploy-gfc-edge-instances.html#update-bluexp-edge-caching-edge-software">"Siga estos pasos"</a> Para actualizar el software BlueXP Edge de almacenamiento en caché perimetral.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-edge-caching/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Al poner en marcha el almacenamiento en caché perimetral de BlueXP en Windows Server 2016, debería utilizar .NET Framework 4,8 y el marco de Windows WebView2.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="diseñar-y-poner-en-marcha-el-almacenamiento-en-caché-perimetral-de-bluexp">Diseñar y poner en marcha el almacenamiento en caché perimetral de BlueXP</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En función de sus requisitos, es posible que necesite implementar una o varias instancias de Edge basadas en las sesiones de usuario simultáneas en una sucursal. La instancia de Edge presenta el recurso compartido de archivos virtuales a los usuarios finales dentro de la sucursal, que se amplía de forma transparente desde la instancia de Core asociada de almacenamiento en caché en edge de BlueXP. El almacenamiento en caché perimetral de BlueXP debería contener un <code>D:\</code> Volumen NTFS, que contiene los archivos almacenados en caché dentro de la sucursal.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-edge-caching/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Para el almacenamiento en caché perimetral de BlueXP, es importante comprender el <a href="concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines">"directrices de tamaño"</a>. Esto te ayudará a realizar el diseño correcto para la puesta en marcha de almacenamiento en caché en el edge de BlueXP. También debe determinar qué es mejor para su entorno en términos de escalado, disponibilidad de recursos y redundancia.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="instancia-de-edge-en-caché-en-edge-de-bluexp">Instancia de Edge en caché en edge de BlueXP</h3>
+<div class="paragraph">
+<p>Al poner en marcha una instancia de almacenamiento en caché perimetral de BlueXP, necesitas aprovisionar una única máquina virtual, ya sea mediante la implementación de Windows Server 2016 2019 Standard o Datacenter Edition, o bien mediante el almacenamiento en caché perimetral <code>.OVA</code> o. <code>.VHD</code> Plantilla, que incluye el sistema operativo Windows Server elegido y el software de almacenamiento en caché perimetral de BlueXP.</p>
+</div>
+<div class="sect3">
+<h4 id="pasos-rápidos">Pasos rápidos</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Implementa la plantilla virtual de almacenamiento en caché perimetral de BlueXP, o máquina virtual Windows Server 2016, o la edición de Windows Server 2019 Standard o Datacenter.</p>
+</li>
+<li>
+<p>Asegúrese de que la máquina virtual está conectada a la red, unida al dominio y accesible a través de RDP.</p>
+</li>
+<li>
+<p>Instala el software Edge de almacenamiento en caché perimetral de BlueXP más reciente.</p>
+</li>
+<li>
+<p>Identifica el servidor de gestión de almacenamiento en caché perimetral y la instancia de Core de BlueXP.</p>
+</li>
+<li>
+<p>Configura la instancia de Edge de almacenamiento en caché perimetral de BlueXP.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="requisitos-de-edge-para-el-almacenamiento-en-caché-en-el-edge-de-bluexp">Requisitos de Edge para el almacenamiento en caché en el edge de BlueXP</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>El edge caching Edge de BlueXP se ha diseñado para funcionar en todas las plataformas que admiten Windows Server 2016 y 2019, aportando LA TECNOLOGÍA simplificada a las oficinas remotas corporativas y más allá. De forma crítica, el almacenamiento en caché perimetral de BlueXP se puede poner en marcha en tu infraestructura de hardware, en la virtualización o en entornos de nube pública o híbrida en casi todos los casos si cumplen ciertos requisitos del nivel básico.</p>
+</div>
+<div class="paragraph">
+<p>Edge requiere los siguientes recursos de hardware y software para funcionar de manera óptima. Para obtener más información acerca de las directrices de tamaño generales, consulte <a href="concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines">"directrices de tamaño"</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="dispositivo-servidor-reforzado">Dispositivo servidor reforzado</h3>
+<div class="paragraph">
+<p>El paquete de instalación de almacenamiento en caché perimetral de BlueXP crea un dispositivo de software reforzado en cualquier instancia de Microsoft Windows Server. <em>No desinstalar</em> El paquete de almacenamiento en caché perimetral de BlueXP. La desinstalación del almacenamiento en caché perimetral de BlueXP afectará a la funcionalidad de la instancia de servidor y puede requerir una recompilación completa de la instancia del servidor.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="requisitos-físicos-de-hardware">Requisitos físicos de hardware</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>8 núcleos de CPU mínimo</p>
+</li>
+<li>
+<p>32 GB mínimo de RAM</p>
+</li>
+<li>
+<p>NIC dedicado único o redundante de 1 Gbps</p>
+</li>
+<li>
+<p>SSD o HDD SAS de 10 000 rpm (opción preferida)</p>
+</li>
+<li>
+<p>Controladora RAID con la funcionalidad de almacenamiento en caché de escritura simultánea habilitada</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="requisitos-de-implementación-virtual">Requisitos de implementación virtual</h3>
+<div class="paragraph">
+<p>Se sabe que las plataformas de hipervisores están sujetas a la degradación del rendimiento desde la perspectiva de un subsistema de almacenamiento (por ejemplo, latencia). Para obtener un rendimiento óptimo mediante el almacenamiento en caché perimetral de BlueXP, se recomienda una instancia de servidor físico con SSD.</p>
+</div>
+<div class="paragraph">
+<p>Para obtener el mejor rendimiento en entornos virtuales, además de los requisitos físicos del host, se deben cumplir los siguientes requisitos y reservas de recursos:</p>
+</div>
+<div class="paragraph">
+<p>Microsoft Hyper-V 2012 R2 y posterior:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Procesador (CPU): Las CPU deben configurarse como <strong>Static</strong>: Mínimo: 8 núcleos vCPU.</p>
+</li>
+<li>
+<p>Memoria (RAM): Mínimo: 32 GB establecido como <strong>Estático</strong>.</p>
+</li>
+<li>
+<p>Aprovisionamiento de discos duros: Los discos duros deben configurarse como <strong>disco fijo</strong>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>VMware vSphere 6.x y posteriores:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Procesador (CPU): Se debe establecer la reserva de los ciclos de la CPU. Mínimo: 8 núcleos vCPU @ 10000 MHz.</p>
+</li>
+<li>
+<p>Memoria (RAM): Mínimo: Reserva de 32 GB.</p>
+</li>
+<li>
+<p>Provisionamiento de discos duros:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>El aprovisionamiento de disco debe definirse como <strong>Thick provisioned eager zeroed</strong>.</p>
+</li>
+<li>
+<p>Los recursos compartidos de disco duro deben configurarse en <strong>Alta</strong>.</p>
+</li>
+<li>
+<p>Devices.hotplug debe establecerse en <strong>False</strong> mediante vSphere Client para evitar que Microsoft Windows presente unidades de almacenamiento en caché perimetral de BlueXP como extraíbles.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Conexión en red: La interfaz de red se debe establecer en <strong>VMXNEL3</strong> (puede requerir herramientas de VM).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Edge se ejecuta en Windows Server 2016 y 2019, por lo que la plataforma de virtualización debe admitir el sistema operativo, así como la integración con utilidades que mejoran el rendimiento del sistema operativo invitado de la VM y la gestión de la VM, como VM Tools.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="requisitos-de-tamaño-de-particiones">Requisitos de tamaño de particiones</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>C:\ - mínimo 250 GB (volumen sistema/arranque)</p>
+</li>
+<li>
+<p>D:\: Mínimo de 1 TB (volumen de datos independiente para la caché global de archivos inteligente*)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>*el tamaño mínimo es el doble del conjunto de datos activo. El volumen de caché (D:\) puede ampliarse y sólo está restringido por las limitaciones del sistema de archivos NTFS de Microsoft Windows.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="requisitos-del-disco-de-caché-inteligente-de-archivos-de-global-file-cache">Requisitos del disco de caché inteligente de archivos de Global File Cache</h3>
+<div class="paragraph">
+<p>La latencia de disco en el disco de caché de archivos inteligente (D:\) de Global File Cache debería ofrecer una latencia de disco de I/o media de &lt; 0,5 ms y un rendimiento de 1 MB por usuario simultáneo.</p>
+</div>
+<div class="paragraph">
+<p>Para obtener más información, consulte <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de caché global de archivos de NetApp"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="redes">Redes</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Firewall: Se deben permitir los puertos TCP entre el almacenamiento en caché perimetral de BlueXP y las instancias de Edge y Management Server y Core.</p>
+<div class="paragraph">
+<p>Puertos TCP de almacenamiento en caché perimetral de BlueXP: 443 (HTTPS - LMS), 6618 - 6630.</p>
+</div>
+</li>
+<li>
+<p>Los dispositivos de optimización de redes (como Riverbed Steelhead) deben estar configurados para que pasen a través de los puertos específicos del almacenamiento en caché perimetral de BlueXP (TCP 6618-6630).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="estación-de-trabajo-cliente-y-prácticas-recomendadas-de-la-aplicación">Estación de trabajo cliente y prácticas recomendadas de la aplicación</h3>
+<div class="paragraph">
+<p>El almacenamiento en caché perimetral de BlueXP se integra de manera transparente en los entornos del cliente, lo cual permite a los usuarios acceder a datos centralizados utilizando sus estaciones de trabajo cliente y ejecutando así aplicaciones empresariales. Con el almacenamiento en caché perimetral de BlueXP, se accede a los datos a través de una asignación directa de unidades o a través de un espacio de nombres DFS. Para obtener más información sobre la estructura de almacenamiento en caché perimetral de BlueXP, el almacenamiento en caché de archivos inteligente y los aspectos clave del software, consulte el <a href="concept-before-you-begin-to-deploy-gfc.html" target="_blank" rel="noopener">"Antes de empezar a implementar el almacenamiento en caché perimetral de BlueXP"</a> sección.</p>
+</div>
+<div class="paragraph">
+<p>Para garantizar una experiencia y un rendimiento óptimos, es importante cumplir con los requisitos y las prácticas recomendadas del cliente de Microsoft Windows, tal y como se describe en la Guía del usuario de la caché global de archivos. Esto se aplica a todas las versiones de Microsoft Windows.</p>
+</div>
+<div class="paragraph">
+<p>Para obtener más información, consulte <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de caché global de archivos de NetApp"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="mejores-prácticas-de-firewall-y-antivirus">Mejores prácticas de firewall y antivirus</h3>
+<div class="paragraph">
+<p>Mientras que el almacenamiento en caché perimetral de BlueXP hace un esfuerzo razonable para validar que los paquetes de aplicaciones antivirus más comunes son compatibles con Global File Cache, NetApp no puede garantizar ni se responsabiliza de las incompatibilidades o problemas de rendimiento ocasionados por estos programas o las actualizaciones, los Service Packs o las modificaciones asociadas.</p>
+</div>
+<div class="paragraph">
+<p>NetApp no recomienda la instalación ni la aplicación de supervisión o soluciones antivirus en ninguna instancia habilitada con almacenamiento en caché perimetral de BlueXP (el núcleo o Edge). Si la solución se instalara, por elección o por política, deberán aplicarse las siguientes prácticas recomendadas y recomendaciones. Si desea conocer los paquetes antivirus habituales, consulte el Apéndice A de la <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de caché global de archivos de NetApp"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="configuración-del-firewall">Configuración del firewall</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Firewall de Microsoft:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Conserve la configuración del firewall de forma predeterminada.</p>
+</li>
+<li>
+<p>Recomendación: Deje los servicios y la configuración del firewall de Microsoft en la configuración predeterminada de DESACTIVADO y sin iniciar para las instancias estándar de Edge de almacenamiento en caché perimetral de BlueXP.</p>
+</li>
+<li>
+<p>Recomendación: Deje LA configuración y los servicios del firewall de Microsoft en LA configuración predeterminada DE ACTIVADO y comience para las instancias de Edge que también ejecuten la función controlador de dominio.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Firewall de la empresa:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>La instancia principal de almacenamiento en caché perimetral de BlueXP escucha en los puertos TCP 6618-6630, lo que garantiza que las instancias de Edge de almacenamiento en caché perimetral de BlueXP se puedan conectar a estos puertos TCP.</p>
+</li>
+<li>
+<p>Las instancias de almacenamiento en caché perimetral de BlueXP requieren la comunicación con el servidor de administración de almacenamiento en caché perimetral de BlueXP en el puerto TCP 443 (HTTPS).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Los dispositivos/soluciones de optimización de red deben estar configurados para que pasen a través de puertos específicos del almacenamiento en caché del perímetro de BlueXP.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="mejores-prácticas-de-antivirus">Mejores prácticas de antivirus</h3>
+<div class="paragraph">
+<p>NetApp ha probado productos antivirus más utilizados, como Cylance, McAfee, Symantec, Sophos, Trend Micro y Kaspersky, Crowd Strike, Cisco AMP, Tannium y Windows Defender para su uso en combinación con el almacenamiento en caché perimetral de BlueXP. El software antivirus debe contar con la certificación de NetApp y solo es compatible si se configura con la lista de exclusión adecuada. Consulte el Apéndice A de la <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de caché global de archivos de NetApp"</a></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/bluexp-edge-caching/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Añadir antivirus a un dispositivo Edge puede tener un efecto del 10-20% sobre el rendimiento del usuario.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Para obtener más información, consulte <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">"Guía del usuario de caché global de archivos de NetApp"</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="configurar-exclusiones">Configurar exclusiones</h4>
+<div class="paragraph">
+<p>El software antivirus u otras utilidades de indexación o análisis de terceros nunca deben analizar la unidad D:\ en la instancia de Edge. Estos análisis de la unidad de servidor Edge D:\ darán como resultado numerosas solicitudes de apertura de archivos para todo el espacio de nombres de caché. Esto provocará que se optimicen en el centro de datos las búsquedas de archivos en la WAN de todos los servidores de archivos. Se producirán inundaciones en la conexión WAN y cargas innecesarias en la instancia de Edge, lo que provocaría una degradación del rendimiento.</p>
+</div>
+<div class="paragraph">
+<p>Además de la unidad D:\, por lo general se deberían excluir de todas las aplicaciones antivirus los siguientes directorios y procesos de almacenamiento en caché perimetral de BlueXP:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>C:\Program Files\TalonFAST\</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\LMClientService.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\LMServerService.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\Optimus.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\tafsexport.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\tafsutils.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\tapp.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\TappN.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\FTLSummaryGenerator.exe</code></p>
+</li>
+<li>
+<p>'C:\Archivos de programa\TalonFAST\Bin\GfcCIAgentService.exe'</p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\RFASTSetupWizard.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\TService.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\Bin\tum.exe</code></p>
+</li>
+<li>
+<p><code>C:\Program Files\TalonFAST\FastDebugLogs\</code></p>
+</li>
+<li>
+<p><code>C:\Windows\System32\drivers\tfast.sys</code></p>
+</li>
+<li>
+<p><code>\\?\TafsMtPt:\</code> o. <code>\\?\TafsMtPt*</code></p>
+</li>
+<li>
+<p><code>\Device\TalonCacheFS\</code></p>
+</li>
+<li>
+<p><code>\\?\GLOBALROOT\Device\TalonCacheFS\</code></p>
+</li>
+<li>
+<p><code>\\?\GLOBALROOT\Device\TalonCacheFS\*</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="política-de-soporte-de-netapp">Política de soporte de NetApp</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Las instancias de almacenamiento en caché en el edge de BlueXP están diseñadas específicamente como la aplicación principal que se ejecuta en una plataforma Windows Server 2016 y 2019. El almacenamiento en caché perimetral de BlueXP requiere acceso prioritario a recursos de plataforma, por ejemplo, disco, memoria, interfaces de red y puede exigir mucho estos recursos. Las puestas en marcha virtuales requieren reservas de memoria/CPU y discos de alto rendimiento.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Para las puestas en marcha de sucursales, los servicios y aplicaciones compatibles que hay en el servidor que ejecuta el almacenamiento en caché perimetral de BlueXP se limitan a:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>DNS/DHCP</p>
+</li>
+<li>
+<p>Controladora de dominio de Active Directory (el almacenamiento en caché en el perímetro de BlueXP debe estar en un volumen independiente)</p>
+</li>
+<li>
+<p>Servicios de impresión</p>
+</li>
+<li>
+<p>System Center Configuration Manager (SCCM) de Microsoft</p>
+</li>
+<li>
+<p>Agentes del sistema del lado del cliente y aplicaciones antivirus aprobados para el almacenamiento en caché perimetral de BlueXP</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>El soporte y mantenimiento de NetApp solo se aplica al almacenamiento en caché perimetral de BlueXP.</p>
+</li>
+<li>
+<p>No se admite el software de productividad de la línea de negocio, que suele requerir muchos recursos, por ejemplo, servidores de bases de datos, servidores de correo, etc.</p>
+</li>
+<li>
+<p>El cliente es responsable de cualquier software de almacenamiento en caché en el edge que no sea de BlueXP que se pueda instalar en el servidor que ejecuta el almacenamiento en caché en edge de BlueXP:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si algún paquete de software de terceros provoca conflictos de software o recursos con el rendimiento o el almacenamiento en caché perimetral de BlueXP, es posible que la organización de soporte de NetApp requiera que el cliente deshabilite o elimine el software del servidor que ejecuta el almacenamiento en caché perimetral de BlueXP.</p>
+</li>
+<li>
+<p>Es la responsabilidad del cliente de toda la instalación, la integración, el soporte y la actualización de cualquier software añadido al servidor que ejecuta la aplicación de almacenamiento en caché perimetral de BlueXP.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Las utilidades/agentes de administración de sistemas, como las herramientas antivirus y los agentes de licencia, pueden coexistir. Sin embargo, a excepción de los servicios y aplicaciones compatibles enumerados anteriormente, estas aplicaciones no son compatibles con el almacenamiento en caché perimetral de BlueXP y deben seguirse las mismas directrices anteriores:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es responsabilidad del cliente por toda la instalación, integración, asistencia y actualización de cualquier software añadido.</p>
+</li>
+<li>
+<p>Si un cliente instala un paquete de software de terceros que provoca (o se sospecha que está causando) conflictos de software o recursos con el rendimiento o el almacenamiento en caché perimetral de BlueXP, es posible que la organización de soporte de BlueXP Edge Cache sea un requisito para deshabilitar o quitar el software.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/es-es/bluexp-edge-caching/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/es-es/bluexp-edge-caching/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">En esta página</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2023 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Condiciones de uso</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Política de privacidad</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Política de cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Configuración de cookies</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Enviar comentarios sobre esta página</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/es-es/bluexp-edge-caching/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/es-es/bluexp-edge-caching/js/prism.js'></script>
+      <script type="text/javascript" src='/es-es/bluexp-edge-caching/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/es-es/bluexp-edge-caching/js/ie-tabbed-blocks.js'></script>
+    <script src='/es-es/bluexp-edge-caching/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
