@@ -18,6 +18,12 @@ Descubre las novedades en el almacenamiento en caché perimetral de BlueXP.
 
 
 
+== 6 de mayo de 2024 (versión 2,4)
+
+Esta versión corrige algunos problemas menores. El paquete de software actualizado está disponible en https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["esta página"].
+
+
+
 == 1 de agosto de 2023 (versión 2,3)
 
 En esta versión se solucionan los problemas descritos en https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["Problemas solucionados"]. Los paquetes de software actualizados están disponibles en https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["esta página"].
