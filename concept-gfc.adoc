@@ -16,7 +16,7 @@ summary: El almacenamiento en caché perimetral de NetApp BlueXP te permite cons
 [role="lead"]
 El almacenamiento en caché perimetral de NetApp BlueXP te permite consolidar silos de servidores de archivos distribuidos en una huella de almacenamiento global y cohesionada en la nube pública. Esto crea un sistema de archivos con acceso global en la nube que todas las ubicaciones remotas pueden usar como si fueran locales.
 
-El almacenamiento en caché perimetral de BlueXP está disponible en dos modos de implementación para adaptarse a su arquitectura empresarial: Como en un servicio integrado combinado en una instancia de Cloud Volumes ONTAP (Cloud Volumes Edge Cache) o como componente complementario para su estrategia de almacenamiento empresarial (Global File Cache).
+El almacenamiento en caché perimetral de BlueXP está disponible en dos modos de puesta en marcha para adaptarse a su arquitectura empresarial: Como servicio integrado combinado con una instancia de Cloud Volumes ONTAP, conocido como Cloud Volumes Edge Cache (CVEC), o como componente complementario para su estrategia de almacenamiento empresarial, conocida como Global File Cache (GFC).
 
 
 

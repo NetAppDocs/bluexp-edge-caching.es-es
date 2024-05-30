@@ -18,6 +18,14 @@ Descubre las novedades en el almacenamiento en caché perimetral de BlueXP.
 
 
 
+== 31 de mayo de 2024
+
+NetApp ha anunciado el fin de la disponibilidad (EOA) de la caché de archivos global de NetApp a 31 de mayo de 2024. El fin de disponibilidad afecta a todos los productos de Global File Cache de NetApp, incluidas las suscripciones de software Global File Cache independientes y los paquetes de soluciones de Global File Cache con NetApp Cloud Volumes ONTAP, conocido como Cloud Volumes Edge Cache de NetApp.
+
+Aunque anunciamos el fin de disponibilidad de estos productos, NetApp seguirá ofreciendo soporte hasta el 31 de mayo de 2027 como mínimo. https://mysupport.netapp.com/info/communications/CPC-00578.html["Consulte los detalles sobre el fin de la disponibilidad de Global File Cache de NetApp"^].
+
+
+
 == 6 de mayo de 2024 (versión 2,4)
 
 Esta versión corrige algunos problemas menores. El paquete de software actualizado está disponible en https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["esta página"].
