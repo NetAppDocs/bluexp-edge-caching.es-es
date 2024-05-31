@@ -59,26 +59,7 @@ image:diagram_gfc_image2.png["Un diagrama que muestra los detalles de una puesta
 
 == Plataformas de almacenamiento compatibles
 
-Las plataformas de almacenamiento compatibles para el almacenamiento en caché perimetral de BlueXP difieren en función de la opción de implementación que seleccione.
-
-
-
-=== Opciones de puesta en marcha automatizadas
-
-El almacenamiento en caché perimetral de BlueXP es compatible con los siguientes tipos de entornos de trabajo cuando se implementa mediante BlueXP:
-
-* Cloud Volumes ONTAP en Azure
-* Cloud Volumes ONTAP en AWS
-* Cloud Volumes ONTAP en Google Cloud
-
-
-Esta configuración te permite poner en marcha y gestionar toda la puesta en marcha del lado del servidor de almacenamiento en caché perimetral de BlueXP, incluidos el servidor de gestión del almacenamiento en caché perimetral de BlueXP y el núcleo de almacenamiento en caché perimetral de BlueXP, desde BlueXP.
-
-
-
-=== Opciones de puesta en marcha manual
-
-Las configuraciones de almacenamiento en caché en el edge de BlueXP también son compatibles con Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSx para sistemas ONTAP y Cloud Volumes Service en Google Cloud. Las soluciones en las instalaciones también están disponibles en las plataformas AFF y FAS de NetApp. En estas instalaciones, los componentes del lado del servidor de almacenamiento en caché perimetral de BlueXP se deben configurar y poner en marcha de forma manual, no mediante BlueXP.
+Las configuraciones de cloud de almacenamiento en caché perimetral de BlueXP son compatibles con Cloud Volumes ONTAP, Azure NetApp Files, Amazon FSx para los sistemas ONTAP y Cloud Volumes Service en Google Cloud. Las soluciones en las instalaciones también están disponibles en las plataformas AFF y FAS de NetApp. En ambos tipos de configuraciones, los componentes del lado del servidor de almacenamiento en caché perimetral de BlueXP se configuran y se implementan de forma manual; no mediante BlueXP.
 
 Consulte https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["Guía del usuario de caché global de archivos de NetApp"^] para obtener más detalles.
 
@@ -146,13 +127,13 @@ En Google Cloud, se ejecuta en una instancia n2-standard-8 o equivalente (8 vCPU
 
 
 
-* Cuando se instala con Cloud Volumes ONTAP (las configuraciones compatibles puestas en marcha completamente mediante BlueXP), hay dos opciones de precio:
+* Cuando se instala con Cloud Volumes ONTAP, hay dos opciones de precio:
 +
 ** En los sistemas Cloud Volumes ONTAP, puedes pagar $3.000 USD por cada instancia de Edge de almacenamiento en caché perimetral de BlueXP al año.
 ** Además, para los sistemas Cloud Volumes ONTAP en Azure y GCP, puede elegir el paquete Cloud Volumes ONTAP Edge Cache. Esta licencia basada en la capacidad te permite poner en marcha una única instancia de almacenamiento en caché perimetral de BlueXP para cada 3 TiB de capacidad adquirida. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Más información aquí"^].
 
 
-* Cuando se instala con las opciones de implementación manual, el precio es diferente. Para ver una estimación de costes de alto nivel, consulte https://bluexp.netapp.com/global-file-cache/roi["Calcule cuánto puede ahorrar"^] También puede consultar a su ingeniero de soluciones de NetApp si quiere hablar de las mejores opciones para la puesta en marcha de su empresa.
+* Cuando se instala en otras plataformas (no en sistemas Cloud Volumes ONTAP), el precio es diferente. Para ver una estimación de costes de alto nivel, consulte https://bluexp.netapp.com/global-file-cache/roi["Calcule cuánto puede ahorrar"^] También puede consultar a su ingeniero de soluciones de NetApp si quiere hablar de las mejores opciones para la puesta en marcha de su empresa.
 
 
 
